@@ -38,7 +38,7 @@ RJ: "Urgent" 1.13 Issues
 
 ##### LTS Concerns?
 
-@wycats doesn't feel like the emo is community-wide; more people using the LTS release RFC as an opportunity to express concerns about the 2.0 churn. That said, there are some very real issues related to our aggressiveness in the 2.0 cycle that we should keep in mind going forward, and especially for 3.0. Hopefully the tooling situation will be better by the time we reach 3.0 too.
+@wycats doesn't feel like the concerns specifically about the LTS are community-wide. It's more people using the LTS release RFC as an opportunity to express concerns about the 2.0 churn. That said, there are some very real issues related to our aggressiveness in the 2.0 cycle that we should keep in mind going forward, and especially for 3.0. Hopefully the tooling situation will be better by the time we reach 3.0 too.
 
 ##### NPM 3 is beta tested
 
