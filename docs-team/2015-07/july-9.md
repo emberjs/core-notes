@@ -157,7 +157,7 @@ Outline of the 1.12 guides:
 
 #### Minutes
 
-Attendees: Robert, Trek, Matt, Martin, Tom, Stefan, Yehuda, Locks, Michael (others?)
+Attendees: Robert, Trek, Matt, Martin, Tom, Stefan, Yehuda, Locks, Michael, Leah
 
 
 TD: docs have reached a crises level, they are of upmost importance to sort out
