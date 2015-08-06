@@ -19,7 +19,7 @@
 
 #### Minutes
 
-Attendees: Matt, Robert, Tom, Yehuda, Stef, Kris, ?
+Attendees: Matt, Robert, Tom, Yehuda, Kris, ?
 
 
 RJ: remove ember-routing-core-outlet feature, not used by liquid-fire any longer)
