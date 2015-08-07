@@ -4,7 +4,7 @@
 
 ### Attendees
 
-Robert, Yehuda, Stefan, Peter, Matt, Martin, Kris, Erik, Trek
+Robert, Yehuda, Stefan, Peter, Matt, Martin, Kris, Erik, Trek, Leah
 
 ### Agenda
 
@@ -168,8 +168,8 @@ RJ: I can probably be ready by Monday for 2.0
 
 YK: I think the blog post will be set by Wednesday
 
-...emberconf website launch discussion and timeline...
+LS: EmberConf website launch discussion and timeline.
 
-...toronto f2f discussion...
+LS: Toronto f2f discussion. Travel logistics and local events.
 
-...project marketing / identity design ...
+LS: Project marketing update, identity design update.
