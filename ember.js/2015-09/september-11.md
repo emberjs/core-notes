@@ -2,7 +2,7 @@
 
 ### Attendees
 
-Leah, Trek, Edward, Matt, Kris, Yehuda, Robert, Martin, Erik, Alex, Stef
+Leah Silber, Trek Glowacki, Edward Faulkner, Matt Beale, Kris Selden, Yehuda Katz, Robert Jackson, Martin Munoz, Erik Bryn, Alex Matchneer, Stef Penner
 
 ### Agenda
 
