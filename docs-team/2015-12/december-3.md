@@ -3,7 +3,7 @@ Attending:
 * David Baker
 * Leah Silber
 * Michael Kaiser-Nyman
-* Tom Dal
+* Tom Dale
 
 ---
 
