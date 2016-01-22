@@ -2,7 +2,7 @@
 
 ## Attendees
 
-Matt, Dan, Ed, Godfrey, Kris, Martin, Tom, Yehuda, Erik, Stef
+Matt, Dan, Ed, Godfrey, Kris, Martin, Tom, Yehuda, Erik, Stef, Leah
 
 ## Topics
 
