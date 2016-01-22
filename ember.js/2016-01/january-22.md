@@ -84,7 +84,10 @@ YK: disagree, I think it makes it worse. It has both approaches, so you have inc
 3. Addons need to participate in the naming scheme, most likely with namespace prefix and double-colon separator.
 4. Subtrees should be relocatable. If you move a directory to a new place in the tree, it's internal structure should all still work.
 5. There should be no cognitive overhead when adding a new thing. The right way should be obvious and not impose unnecessary decisions.
-6. We need clean separation between the namespace of the user's own components/helpers, routes, etc
+6. We need clean separation between the namespace of the user's own components, helpers, routes, etc and the framework's own type names ("component", "helper", etc) so that we can disambiguate them and add future ones.
+7. Ideally we will have a place to put tests alongside their components.
+8. Local relative lookup for components and helpers needs to work.
+9. Avoid the "titlebar problem", in which many files are all named "component.js" and you can't tell them apart in your editor.
 
 ### Testing
 
