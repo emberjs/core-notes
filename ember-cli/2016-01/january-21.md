@@ -40,7 +40,7 @@
 
 ### Prioritization of Tasks
 * First priority are always scratching your own itches. External motivation gets us a lot further.
-* Second priority tasks are things which make the ergonomics for contributing to the ptoject easier. (The reality is that having a "core team" doesn't scale as well as we'd like as the project gets larger and more complicated.)
+* Second priority tasks are things which make the ergonomics for contributing to the project easier. (The reality is that having a "core team" doesn't scale as well as we'd like as the project gets larger and more complicated.)
 * Third priority items don't exist, it's just some long backlog of ideas.
 
 ### First Pass at Tasks and Champions
