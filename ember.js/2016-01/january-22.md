@@ -1,4 +1,4 @@
-# Emberjs Core Team 2016-01-22
+# Ember.js Core Team 2016-01-22
 
 ## Attendees
 
