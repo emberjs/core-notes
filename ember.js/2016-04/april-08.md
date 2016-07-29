@@ -8,7 +8,7 @@
 - (public krisselden) supporting super() calls when there is no method overriden [emberjs/ember.js#13242](https://github.com/emberjs/ember.js/pull/13242)
 - (public) EmberConf followthrough (YK)
 - (public) Meta-package (YK)
- 
+
 ## Attendees
 
 MB, RJ, YK, GC, MM, IT, DG, AM, KS, TD, EF
