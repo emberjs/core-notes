@@ -54,11 +54,9 @@ RM: Will talk to core about it.
 
 ### Firebase
 
-GJ: was going to enquire about intercom paying.  Wondering if it was something I should ask.  Leah had some questions about details/admin.
+GJ: is staying with firebase something we will do long term, or are we still considering alternatives?
 
-GJ: is this something (firebase) we will do long term?  If not we should get that settled first.
-
-DB: will write to Firebase contact, ask more here
+DB: I need to clear up some questions with our Firebase contact.
 
 ### Subroutes tutorial
 
