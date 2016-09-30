@@ -33,7 +33,7 @@ Topics
 - DB: David Baker @acorncom
 - RM: Ricardo Mendes @locks
 - GJ: Gavin Joyce @gavinjoyce
-- ...
+- LS: Leah Silber @wifelette
 
 ## Notes
 
