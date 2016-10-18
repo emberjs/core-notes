@@ -123,6 +123,6 @@ RM: Deploys to S3 (my acct), waiting on permissions.
 
 ### Module Unification
 
-RM: after talking to ben, yehuda, will have a page on the website learn page (during beta) for the perspective as a user (rfc geared toward implementers).  
+RM: after talking to dan and yehuda, will have a page on the website learn page (during beta) for the perspective as a user (rfc geared toward implementers).  
 
 RM: Will update guides when it releases.
