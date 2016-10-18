@@ -68,7 +68,7 @@ We are mostly in agreement that we want to introduce mirage at some point, and w
 
 ### API App
 
-DB: Still working things out with Stanley _Update: DB up with him.  He's looking for help.  Looking to Todd to assist in remaining work._
+DB: Still working things out with Stanley _Update: DB met up with him.  He's looking for help.  Looking to Todd to assist in remaining work._
 
 ### Help Wanted
 
