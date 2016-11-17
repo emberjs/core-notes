@@ -17,7 +17,7 @@ Topics
     - Improve/clarify existing text (see checklist in issue)
 - javascript module api RFC + API Doc Emberization
   - RFC: https://github.com/tomdale/rfcs/blob/js-modules/text/0000-javascript-module-api.md#api-documentation
-  - Notes: https://usecanvas.com/ember-docs/rfc-javascript-module-api/7LDXYx8qz3I0jPXCgk80Dd
+  - Notes: https://github.com/emberjs/rfcs/pull/176#issuecomment-259225731
   - api ember repo: https://github.com/ember-learn/ember-api-docs
   - Agreed upon API behavior back in March (private, etc): https://github.com/emberjs/website/issues/2452
   - feature toggling behavior: https://github.com/emberjs/ember.js/issues/13101
