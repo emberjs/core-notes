@@ -13,3 +13,5 @@
 ### Attendees
 
 ### Minutes
+
+(no actual note taking took place)
