@@ -30,7 +30,9 @@ Topics
 ## Attendees
 
 - TJ: Todd Jordan @toddjordan
+- DB: David Baker @acorncom
 - RM: Ricardo Mendes @locks
+- LS: Leah Silber @wifelette
 - GM: Gaurav Munjal @gaurav0
 - SC: Sarah Clatterbuck @sclatter
 
