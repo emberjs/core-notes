@@ -10,7 +10,7 @@
 
 ### Attendees
 
-MB: DG, GC, IT, RJ, GC, TD, KS, SP, MM
+MB: DG, GC, IT, RJ, TD, KS, SP, MM
 
 ### Minutes
 
