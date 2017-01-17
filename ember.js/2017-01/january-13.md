@@ -22,7 +22,7 @@ KS: I would like the id to not be a counter, for example if a tab is reloaded yo
 
 SP: Ah you need a unique id
 
-KS: You could serialize to session storage and that would be a good enough scope. Session storage is not designed for this.
+KS: You could serialize to session storage and that would be a good enough scope. Session storage is designed for this.
 
 SP: So this is not ready for FCP. The identifier should not be able to be duplicated. We need to do a uuid or something.
 
