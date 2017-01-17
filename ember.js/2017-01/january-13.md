@@ -2,11 +2,11 @@
 
 ### Agenda
 
-- (public) FCP? https://github.com/emberjs/rfcs/pull/186 (SP)
-- (public) Update on [Router Service RFC](https://github.com/emberjs/rfcs/blob/master/text/0095-router-service.md) (and discussion of shipping in phases). (RJ)
-- (public) Standardizing microlib structure and build process (RM)
-- (public) Merge [JS Module API RFC](https://github.com/emberjs/rfcs/pull/176)? (TD)
-- (public) 2.12 deprecation checklist
+- FCP? https://github.com/emberjs/rfcs/pull/186 (SP)
+- Update on [Router Service RFC](https://github.com/emberjs/rfcs/blob/master/text/0095-router-service.md) (and discussion of shipping in phases). (RJ)
+- Standardizing microlib structure and build process (RM)
+- Merge [JS Module API RFC](https://github.com/emberjs/rfcs/pull/176)? (TD)
+- 2.12 deprecation checklist
 
 ### Attendees
 
