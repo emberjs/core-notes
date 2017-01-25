@@ -44,6 +44,3 @@ RJ: Does ember-data still raise the deprecation?
 MB: There is a tracking issue: https://github.com/emberjs/data/issues/4737 I will follow up and see what is happening.
 
 RJ: Cool, and I will check with Chad.
-
-
-
