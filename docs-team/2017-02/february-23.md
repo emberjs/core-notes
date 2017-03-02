@@ -84,9 +84,10 @@ RM: have not.  Need to make pass on our docs to clean things up anyways
 
 ### Twiddles on the Website
 
-RM: Twiddles: ember apps for twiddles on from page (martin munoz)
+RM: Twiddles: ember apps for twiddles on from page [https://github.com/emberjs/website/pull/2715](https://github.com/emberjs/website/pull/2715)
 
-RM: (Marten?) was asking if twiddles can be searialized to a single file so updates can be made to the website twiddles with simple PRs.
+RM: Marten was asking if twiddles can be searialized to a single file so updates can be made to the website twiddles with simple PRs.
+["Twiddlefy PR"](https://github.com/emberjs/website/pull/2701)
 
 GM: not sure the benefit but we can talk about it.  Not sure that the front page would get updated very often.
 
@@ -102,7 +103,7 @@ DB: As far as guides gists, we should way for the module imports stuff to drop.
 
 RM: was supposed to do the newsletter last week.  Going to do every other week, but got busy.  Will try again this Friday.
 
-### SC
+### Location API PR
 
 SC: Have a PR on the location API. Will take another pass to get ready for merge.
 
@@ -110,7 +111,7 @@ RM: A couple of core members left some remarks?
 
 SC: yeah I'm pretty clear on what they want.
 
-### Ilyia (Twiddle Redesign)
+### Twiddle Redesign
 
 IR: Got Miguel from Ember Paper involved.  Will be helping this weekend as well.  I also have some tests to get working
 
