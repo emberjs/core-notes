@@ -63,7 +63,7 @@ RJ: If you have a component and call set...
 
 YK: The end of this has to be "it will sometimes work".
 
-RJ: They always propagated up. After some about of iteration it settles.
+RJ: They always propagated up. After some amount of iteration it settles.
 
 KS: Not it was not just two way binding, this isn't describing it right.
 
