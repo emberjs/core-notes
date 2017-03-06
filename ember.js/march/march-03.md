@@ -2,9 +2,9 @@
 
 ### Agenda
 
-- (public) Component Definition RFC (GC, YK)
+- Component Definition RFC (GC, YK)
   - [WIP] https://gist.github.com/chancancode/f2c060ee61cb4e3dfe05af6a7561be71 
-- (public) Router Service (RJ)
+- Router Service (RJ)
 
 ### Attendees
 
