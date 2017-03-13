@@ -26,7 +26,7 @@ RJ: So my next question is something not discussed in the router service RFC. Ri
 
 YK: It sounds like you're leading us towards the "separate URL serialization out from `Route`" discussion that we have discussed in the past.
 
-RJ: Currently we go and grab the route (Kris, even in engines we do this work still—once an engine is laoded anyway). I would like to lump the `serializeQueryParam` in with the main `serialize` method. Query param serialization is very odd right now. All query params serialization happens in Ember while all other serialization happens in router.js.
+RJ: Currently we go and grab the route (Kris, even in engines we do this work still—once an engine is loaded anyway). I would like to lump the `serializeQueryParam` in with the main `serialize` method. Query param serialization is very odd right now. All query params serialization happens in Ember while all other serialization happens in router.js.
 
 TD: Are you suggesting moving QP serialization to router.js or moving all other serialization to Ember?
 
@@ -58,7 +58,7 @@ GC: This is a WIP but I hope to wrap it up soon.
 
 YK: Constraint #1: you should never be required to re-enumerate all components just to specify what manager you want to use. It isn't good enough to say you only want to enumerate the glimmer ones, or only the ember ones.
 
-YK: Constraint 2: The information about which component manager you wnt to use should be require dynamically requiring the component file
+YK: Constraint 2: The information about which component manager you want to use should be require dynamically requiring the component file
 
 YK: Constraint 3: all this needs to work with bare template components
 
@@ -66,11 +66,11 @@ YK: I don't think in glimmer components JavaScript only component are a thing. I
 
 YK: In glimmer components there is no way to have anything in the DOM at all without a template. You can't have a div with out a template. This is not a crucial part of the point, but it is part of it.
 
-YK: I think what this means is that in the low leve of the system we need to have som emeta data that is.. I will start on the tempalte meta.  There it tells you which component you want to use. You can see if the tempalte meta has the component manager it knows which to call.
+YK: I think what this means is that in the low level of the system we need to have some meta data that is.. I will start on the template meta.  There it tells you which component you want to use. You can see if the template meta has the component manager it knows which to call.
 
 TD: Uncontroversial.
 
-KS: agreed.
+KS: Agreed.
 
 YK: So how to we get it in there? Extensions?
 
