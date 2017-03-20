@@ -43,7 +43,7 @@ GC: I'd like to post it after this call if there are no major disagreements.
 
 RJ: YK and GC opened an issues on the whatwg repo. if you set range and value in different orders your get different results. I think we can do a few things: for ex. say it is a browser bug
 
-YK: Not a brower bug. We should just special case input types.
+YK: Not a browser bug. We should just special case input types.
 
 RJ: right, special case input type=range, or just explain it to people
 
