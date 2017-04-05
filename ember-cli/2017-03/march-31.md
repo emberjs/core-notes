@@ -114,12 +114,20 @@ This would require:
 - creating a package that would unify error information across projects mentioned above,
   a.k.a `new BroccoliError(/*some args*/)`
 - some design work to make it nice
+- might be nice to follow a pattern similar to mocha assertions, where we attach more helpful properties
+  onto errors, such as fullStack and humanized stack. That way we can provide both or either
+  (depending on the UI)
 - profit?
 
 ### Global Add-ons
 
-- Needs an RFC
-- Save global add-ons in user home folder (like `.ember-cli`)
+- needs an RFC
+- save global add-ons in user home folder (like `.ember-cli`)
+- each global add-on likely needs to explicitly declare its CLI version compatibility through
+  a semver constraint in the `package.json`. That way CLI could list all the global add-ons
+  it can see and figure out which ones to load by comparing the constraints against its own
+  version and potentially display a warning message that some global add-on wasn't loaded
+  due to that.
 
 ### `lib-cli`
 
