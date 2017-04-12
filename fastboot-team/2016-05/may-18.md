@@ -1,21 +1,14 @@
 # FastBoot Meeting Notes 2016-05-18
-
 ## Attendees
-
 _Please add yourself._
-
 Tom Dale, Dan McClain, Arjan Singh, Hassan, Patrick Fisher, Ron White
-
 ## Agenda
-
 - [x] Last Week's Action Items
   - [x] @tomdale to audit GitHub and npm packages  and make sure @danmcclain has access
 - [x] Shoebox
 - [x] Caching
 - [x] Redirection - handling `intermediateTransitionTo`, deleting `html` on 3xx responses
-
 ## Notes
-
 - Shoebox
   - Takes state from the server side and stores it in the DOM via `<script>` tags that is available to the browser side via `fastboot` service
   - Released in 1.0.0-beta.2
@@ -47,8 +40,6 @@ Tom Dale, Dan McClain, Arjan Singh, Hassan, Patrick Fisher, Ron White
     - When chaining down redirects, if you lose state, you could not hit the same routes based on new requests
   - `NoneLocation` should not be hardcoded (separate, future PR)
 - Ember-cli-head and Ember-cli - RJ has to write up the path forward
-
 ## Action Items
-
 - [ ] AS/RJ will investigate issues around `intermediateTransitionTo` to determine if it is a Ember or FastBoot issue
 - [ ] RJ to write up proposal of path foward for ember-cli and ember-cli-head integration

@@ -1,0 +1,90 @@
+# FastBoot Meeting Notes 2017-01-06
+## Attendees
+*Please add yourself.*
+Dan McClain, Krati Ahuja, Arjan Singh, Ryan Cruz, Robert Jackson
+## Agenda
+- [ ] Last Meeting's Action Items
+  - [x] Cut new version of FastBoot App Server & FastBoot Express Middleware
+    - [x] Fixes alchemist configuration
+  - [x] Tom to fix node-debug with fastboot (as reports are it's broken)
+  - [x] [Make Express Static configurable](https://github.com/ember-fastboot/fastboot-app-server/pull/35) to be merged on Jan 1st
+  - [ ] Add more example to fastboot-app-server readme to point slack users at
+  - [x] Tom to comment on https://github.com/ember-fastboot/ember-cli-fastboot/pull/257 about waiting until Ember CLI improvements land
+  - [ ] Consider removing `--no-build` as no other command has a --no-build
+  - [x] Dan to comment on const vs let on BaseURL PR
+- [x] Should we drop Node 0.12 support?
+- [x] Discuss ember-cli-fastboot [PR](https://github.com/ember-fastboot/ember-cli-fastboot/pull/325) and fastboot [PR](https://github.com/ember-fastboot/fastboot/pull/105) for `vendorFiles` and `appFiles` as array
+- [x] Discuss [issue 103](https://github.com/ember-fastboot/fastboot/issues/103)
+- [ ] Follow up re: https://github.com/ember-fastboot/ember-cli-fastboot/pull/250
+## Notes
+- Alchemist config
+  - Related issue: https://github.com/ember-fastboot/fastboot-express-middleware/pull/16
+  - Would be useful to have a post commit hook
+  - RJ: Since 0.12 support is dropped, should we remove alchemist
+    - There are things that Node 4 doesn't support
+  - There was a constraint to not break `npm link`
+    - Caused issues (postinstall hook that changed your package.json)
+- Node-debug :boom:
+  - State of the art has likely changed from when debug 
+  - Node 6.x added --inspect that removes the need to use other pacakges
+  - Don't use node-debug, node 4 uses node inspector, latest minor of 6 and 7+ have inspector built in
+- Debugging Travis for https://github.com/ember-fastboot/ember-cli-fastboot/pull/269
+  - It's likely that ember-cli-addon-tests exploded
+- Node 0.12
+  - Krati: Should we announce dropping support?
+    - RJ: No, the hell with it (Kappa)
+    - Tom: The messaging around ember-cli was strong enough
+  - RJ: Hard to message with version number when we are 1.0 beta series
+  - RJ: Should have message on final release, have code to check for 0.12 and log to notify users
+  - Silently dropping 0.12 would cause rage
+    - Have explicit errors around known breakages
+- Build process
+  - There are some things we cannot have backwards compatible (moving to single instance of an addon, where we had checks for env variable in multiple builds)
+  - RFC was merged to expose public API
+- AppFiles/VendorFiles PR
+  - Example: Lazy engines, should have addition vendor files for the modules to be evaluated
+  - FastBoot PR only emits AppFiles/VendorFiles (not AppFile/VendorFile)
+    - There is no compat check here
+    - Bundle that ember-cli-fastboot emits is coupled indirectly to fastboot
+    - TD: We should try not to change schema to something not backwards compatible
+    - RJ: add a schema identifier to do backwards & forward compatible checks
+    - KA: we should introduce prior to 1.0 to make our lives easier
+  - https://github.com/ember-fastboot/fastboot/pull/105
+  - TD: How do we add additional files into the arrays
+  - KA: Low level API, JSON format is the API
+    - RJ: Example: Engines would automatically add themselves to this array
+  - TD: We could include fastboot version to package.json
+    - RJ: Have a schema version that changes when the schema changes, less useful to know if it's compatible to a particular FastBoot version
+  - Field name in `package.json`
+    - under `fastboot`, use `manifestVersion` as the key, also include ember-cli-fastboot version for debugging purposes
+- Issue 103: https://github.com/ember-fastboot/fastboot/issues/103 (inverting Result and FastBootInfo)
+  - `result` object is outside the instance container currently
+  - `result` will be garbage collected
+  - can be misleading when looking for memory leaks
+  - TD: Result encaspsulates the the full request 
+  - TD: should be thoughtful of what we put in the container
+    - Lifecycle of the result outlives the AppInstance Instance (including the container)
+    - Result is an inert version of the output of app.visit
+    - If we put the result in the container, and then return it, we end up with the current version via javascript memory
+  - Issue to be closed
+- Memory leak issues
+  - Tom started to look into them, did not finish
+- Transition Abort: Issue 202
+  - Rob looked into issue around aborting a transition
+  - If you transitionTo in AfterModel synchronously, no issues
+  - If you transitionTo in the promise chain *but* after AfterModel, transitionTo errors
+    - Likely an ember bug in router
+  - One solution: In fastboot, do transition synchronously
+  - ActiveTransition should not be removed until afterModel is done
+## Action Items
+- [ ] Tom: Remove module alchemist transpilation infrastructure now that 0.12 is unsupported
+- [ ] Ryan: Update debugging instructions on `ember-cli-fastboot`
+- [ ] Arjan: PR to remove 0.12 (please do all of them)
+- [ ] Tom: [Merge Express static PR once 0.12 is removed from build matrix](https://github.com/ember-fastboot/fastboot-app-server/pull/35)
+- [ ] Rob to peek at https://github.com/ember-fastboot/ember-cli-fastboot/pull/269
+  - [ ] Dan to coordinate with Rob
+- [ ] Rob and Tom to wordsmith response to BaseURL PR on ember-cli-fastboot (PR 273)
+- [ ] Rob and Krati to pair up on ember-cli-fastboot manifest schema versioning
+- [ ] Dan to add tests for https://github.com/ember-fastboot/ember-cli-fastboot/pull/250 (probably not for next week)
+- [ ] Tom to look at memory leak issue ([PR: fastboot/103](https://github.com/ember-fastboot/fastboot/pull/93))
+- [ ] Rob to add failing test around AfterModel transition issue

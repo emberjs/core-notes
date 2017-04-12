@@ -1,0 +1,78 @@
+# FastBoot Meeting Notes 2017-02-10
+## Attendees
+*Please add yourself.*
+Dan McClain, Krati Ahuja, Tom Dale, Robert Jackson, Ryan Cruz, 
+## Agenda
+- [ ] 1/13 Meeting's Action Items
+  - [ ] Ryan: Continue update debugging instructions on `ember-cli-fastboot`
+  - [ ] Rob to peek at https://github.com/ember-fastboot/ember-cli-fastboot/pull/269
+    - [ ] Dan to coordinate with Rob
+  - [ ] Dan to add tests for https://github.com/ember-fastboot/ember-cli-fastboot/pull/250 (probably not for next week)
+  - [ ] Tom to look at memory leak issue ([PR: fastboot/103](https://github.com/ember-fastboot/fastboot/pull/93))
+  - [ ] Rob to add failing test around AfterModel transition issue
+  - [ ] Kelly is going to try to repro the redirect issue 
+- [ ] 2/3 Meeting's Action Items
+  - [x] Dan ping David Pett on anchorable docs
+    - [ ] https://github.com/ember-fastboot/fastboot-website/pull/65
+- [ ] [Fastboot build](https://gist.github.com/kratiahuja/fd073007e10abb9db0a2ec42bc1d7c17)
+- [ ] [Ember-cli-fastboot middleware via Brian Gonzalez](https://github.com/ember-fastboot/ember-cli-fastboot/pull/353/files)
+- [x] [Ember-cli-fastboot access to method/body via Brian Cardarella](https://github.com/ember-fastboot/ember-cli-fastboot/pull/354)
+- [x] Moving parsing of FastBoot Response/Headers to the appropriate middleware
+- [x] Skip installing [ember-source](https://github.com/tomdale/ember-cli-addon-tests/pull/48) in ember-cli-addon-tests
+## Notes
+- Accessing request body and method
+  - RJ: Exposing body and method seems fine to expose to FastBoot
+    - There may or may not be security concerns
+  - TD: Does Express do any normalization that we are coupled too?
+    - Would we double parse the body
+    - RJ: Always supply the raw body to not make assumptions for the end user
+    - TD: Many Middleware exist to parse bodies
+    - RJ: We can't control what middleware are put in front of us
+- Parsing Request/Headers for appropriate middleware
+  - RJ: Request and Header parsing does not belong in `fastboot`
+    - Would belong in FastBoot Express Middleware
+  - TD: Express's request is an extension of the node's http request object
+    - RJ: HAPI probably does the same
+  - TD: We do host whitelist checking within `fastboot` via these classes
+  - TD: Since we call visit and get a response, so it is a request/response cycle
+  - TD: If you wrote a hello world Ember app that blows up without passing request/response, that should be a bug
+- FastBoot Build
+  - Meeting this week about this work, gist outlines the outcomes
+  - TL;DR: Everything changes
+    - Double build goes away
+    - Additional assets specific for FastBoot 
+    - Environment flag will no longer work
+      - This causes problems around addons using, hard to deprecate around this
+      - KA: We should have a blog post around this to outline this change, and let people know how to fix ahead of this
+  - It will be very hard to write an addon that supports the current FastBoot implementation, and the new version
+    - RJ: We need to start implementing the new thing to know if/how we can build the compat layer
+  - TD: Package Whitelist: Can we kill it?
+    - RJ: Kill the whitelist, but keep the `FastBoot.require`?
+    - TD: May have solve the realms issue
+      - You have to reimplement require
+      - From parent realm, you pass in `fs`, read in the other files and evaluate in the realm
+      - Even if we kill prototype extensions, people will have polyfills they expect to work
+    - Whitelist also doesn't work well
+      - Security theater effectively
+      - Addons can bring whatever they want with this anyway
+      - We still need whitelist for the package.json for FastBoot
+    - KA: +1 on this
+  - TD: Concerns
+    - This couples us to AMD semantics, we want to couple to Standards semantics
+      - AMD is already public api via `loader`
+    - RJ: We could massage concerns in Babel
+  - TD: Far enough along to assume this is the spec, continue implementing to spike and explore
+- Krati is currently working on the server work this weekend (Assuming no blockers)
+- KA: 3 blockers for 1.0
+  - Serve
+  - Build
+  - Website
+- Ember-cli-addon-tests
+  - Ember-source can't build itself
+- We should no longer manually release packages
+- Ember-cli-fastboot middlewares
+  - Current serving is frozen, but a valid use case to explore post new serve
+## Action Items
+- [ ] TD: Will tell Brian it needs tests and we'll accept
+- [ ] DM: Find his hacky code to make anchors work
+- [ ] Homework: Read https://gist.github.com/kratiahuja/fd073007e10abb9db0a2ec42bc1d7c17
