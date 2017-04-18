@@ -11,9 +11,6 @@
 
 ### Topics
 
-- (private: DB): CodinGame, wondered if we wanted to use their platform in some way so they'd get visibility
-  - Here's a demo running one of a simple Angular todo app on our beta: https://www.codingame.com/profile/1f902a3213291dfd0de802207d362bdf979991/course/angular2-todo/lesson/todo-app-with-angular (edited)
-  - @leonard on Slack if we want to pursue this
 - tutorial
   - Deploying Super Rentals
 - API Docs
