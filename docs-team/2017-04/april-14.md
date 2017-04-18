@@ -37,7 +37,7 @@
 
 - TJ: Todd Jordan @toddjordan
 - DB: David Baker @acorncom
-- GM: Gaurav Mundal @gaurav
+- GM: Gaurav Munjal @gaurav
 
 ## Notes
 
