@@ -54,7 +54,7 @@
 ### NPM org for ember-cli
 
 - sp: Babel has started using npm organizations.  We should do the same thing for ember-cli.  The site ux is unfortunately not great, but we should still do it.
-- // everyone +1
+- *everyone +1*
 - sp: This is probably a fair bit of work.  Likely has to be rob & stef.
 - rj: We have to keep in mind Tobias's process.
 - sp: It's unfortunate that npm orgs don't mirror github orgs.
