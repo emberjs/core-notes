@@ -115,4 +115,4 @@ RM: I started a roadmap strike team, with people from each team to give a short 
 
 TJ: Do we know where the tutorial separation work is?
 
-RM: Not sure.  There’s a possibility we can use the ember-cli-prerender to host the tutorial. Someone offered looking at getting the tutorial rendered with it. If that works out maybe we get it off the ruby stack.  But that shouldn’t affect any current work, since we don’t know when of if that will happen.
+RM: Not sure.  There’s a possibility we can use the ember-cli-prerender to host the tutorial. Someone offered looking at getting the tutorial rendered with it. If that works out maybe we get it off the ruby stack.  But that shouldn’t affect any current work, since we don’t know when or if that will happen.
