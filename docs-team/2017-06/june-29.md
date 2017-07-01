@@ -16,7 +16,6 @@
 
  [ ] DB: Will keep working on reworking Middleman build process
  [x] MS: Will finish route restructuring @Michael Sk
- [x] RM: Create an issue for adding heroku logo to site
  [ ] DB: Infrastructure blog post
 
 ## Minutes
