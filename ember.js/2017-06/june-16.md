@@ -130,6 +130,3 @@ SP: On Sunday I wrote a way to parse Chrome heapdumps. KS started spiking on an 
 YK: fwiw we tried to convince them a while ago to do this and they weren’t interested.
 
 SP: I think since they are using React to build the tools they now feel the pain.
-
-
-
