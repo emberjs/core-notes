@@ -3,10 +3,9 @@
 ### Agenda
 
 - Testing RFCs (RJ)
-  - Deprecate usage of restricted resolver.
-  - Add new QUnit testing API.
+  - [Deprecate usage of restricted resolver](https://github.com/emberjs/rfcs/pull/229).
+  - [Add new QUnit testing API](https://github.com/emberjs/rfcs/pull/232).
 - F2F Agenda Topics (RJ)
-  - Add them here: +Ember F2F Outline and Agenda, Q2 2017 
 - Node/TS (TD)
 - Rehydration Update (YK)
 - [Heapsnapshot](https://github.com/stefanpenner/heapsnapshot) experiment (SP)
@@ -28,7 +27,7 @@ We will work with QUnit team to propose APIs that allow libraries to decorate ob
 
 RJ: Next week I would like to push these two RFCs into FCP. It seems a little too soon. But I’ll be working on these things this coming week.
 
-F2F Agenda Topics
+#### F2F Agenda Topics
 
 RJ: F2F is coming up in a week. I’d like people to make some high level agenda items.
 
@@ -86,7 +85,7 @@ TD will prepare a constraint document
 
 #### Rehydration Update
 
-YK: tl;dr is the approximate plan seemed correct this week. I refactored to remove some things like globals, wrote tests for rerendering. GC and I also looked into what React is doing, which is interesting. I got further along with making mismatches doing the right thing. I have many __ methods on the builder that seem to point at an improved abstraction. I think there is a meta issue re: how much we need to care about mismatches. The React pre-fiber used innerHTML for everything and they generated a checksum, added it to an attribute and if the checksum was the same it would rerender. I know for  fact this caused some issues for Yahoo where there were mismatches with translations.  I think these will be common in the real world. I think it is important attributes and text nodes can be patched. The original approach was just to clear out to the end of an element if there is a mismatch, but I have made it work at the block level, like an if. The tradeoff is that there are more markers in the DOM. So we need to look at use-cases to decide which direction to go. Looks like an open question.
+YK: tl;dr is the approximate plan seemed correct this week. I refactored to remove some things like globals, wrote tests for rerendering. GC and I also looked into what React is doing, which is interesting. I got further along with making mismatches doing the right thing. I have many `__` methods on the builder that seem to point at an improved abstraction. I think there is a meta issue re: how much we need to care about mismatches. The React pre-fiber used innerHTML for everything and they generated a checksum, added it to an attribute and if the checksum was the same it would rerender. I know for  fact this caused some issues for Yahoo where there were mismatches with translations.  I think these will be common in the real world. I think it is important attributes and text nodes can be patched. The original approach was just to clear out to the end of an element if there is a mismatch, but I have made it work at the block level, like an if. The tradeoff is that there are more markers in the DOM. So we need to look at use-cases to decide which direction to go. Looks like an open question.
 
 RJ: My main things: We intend to land this when it is green. I will look tomorrow at the yarn stuff (unrelated), but we intend to land it incrementally. It doens’t fundamentally change the semantics so we can land it in Ember.
 
