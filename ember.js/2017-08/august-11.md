@@ -1,6 +1,5 @@
 # Meeting: Ember Core Team 2017/08/11
 
-
 ## Agenda
 
 - 2.15 stable on monday, 2.16-beta (MB)
