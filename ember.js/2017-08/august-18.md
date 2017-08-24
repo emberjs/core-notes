@@ -17,6 +17,7 @@ YK, RJ, RM, GC, KG, KS, MB, DG, TD, MM
 ### Minutes
 
 #### What should `ember` on npm be used for?
+
 RM: I remember before I was in the core team, Ed proposed an ember-platform package that included Ember, Ember Data, etc. At the moment we only have ember-source, which isn’t anything other than a source distribution. Is ember-source a stepping stone, the final stage, etc.? We have the `ember` package on npm but it doesn’t do anything and it’s very confusing to people.
 
 RJ: We haven’t decided against anything, it just hasn’t been prioritized what to do. I think it would be fine to publish something as the Ember package that just gives a warning that the person installed something they didn’t mean to install, with a link to some documentation explaining.
@@ -38,6 +39,7 @@ DG: Should we consider publishing a version with a postinstall hook?
 MB: Yes that seems like a win.
 
 #### Ember 2.15 Status
+
 MB: The blog post is still lacking Ember Data information. Is that the only blocker?
 
 RJ: The actual code blocker for Ember Data is resolved. It was fixed Wednesday or something. The only real blocker from my perspective is Ember Data in the blog post. It’s frustrating that no one seems to have time to write the blurb, and it’s slightly painful to write because there’s nothing new, just bug fixes.
