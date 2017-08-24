@@ -93,4 +93,3 @@ TD: Have we given them the feedback they need?
 RJ: I’ve gone back and forth a few times but I’m not sure if we’ve communicated the `get` and `set` strategy.
 
 Resolution: RJ is going to leave some comments on the PR with recommendations.
-
