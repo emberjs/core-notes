@@ -121,7 +121,7 @@ RJ: Right, I don’t think template compilation speed is the biggest problem.
 
 YK: CH TD and I have been working on a bundle compiler. It lets us do all the compilation to opcodes ahead of time. Many of the test suites that to matrix things work. In an unusual twist the whole feature works for Ember. Partials aren’t implemented but it isn’t hard. There is a more concerning issue which is that is requires a compile time resolver. It takes a referrer and a name and gives you back a module location. However there are two features you need that make it harder: The first is capabilities, asking a component what it can do. Second issue is named layout. This is basically imcompatible with late bound layouts. The tl’dr is that this is where the rubber meets the road on late bound layouts. The most ideal thing to do inthe near term is find a way to remove late-bound layouts. This is scary since many addons use this.
 
-RJ: To be sure we are on the same page: You’re referring to the layout changing in the consturcture.
+RJ: To be sure we are on the same page: You’re referring to the layout changing in the constructure.
 
 YK: Right, that you need an instance to get the layout.
 
