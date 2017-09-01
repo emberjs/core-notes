@@ -12,7 +12,7 @@ YK, AM, DG, GC, KG, RM, MB. RJ, EF, MM, CH
 
 ## Minutes
 
-### Motion to FCP [Ember.String](https://github.com/emberjs/rfcs/pull/236)` [deprecation RFC](https://github.com/emberjs/rfcs/pull/236)
+### Motion to FCP [`Ember.String`](https://github.com/emberjs/rfcs/pull/236) [deprecation RFC](https://github.com/emberjs/rfcs/pull/236)
 
 RM: If I recall most objections were about how the RFC was written. The comment bore this out. I took a swipe and Serabe did a few more changes. It is basically rewritten, hopefully clearer. I added sections for app and addon developers, and a timeline for when to use what. Work is also done, I did the transform and ember-cli-babel and created the ember-string repo and moved the code and tests. There is only a small issue of the `loc` method, which for translation but it going to be deprecated. Everything is good to go as soon as we FCP and merge.
 
