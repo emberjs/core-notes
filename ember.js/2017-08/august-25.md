@@ -9,7 +9,16 @@
 
 ## Attendees
 
-YK, RJ, RM, GC, KG, KS, MB, DG, TD, MM
+* YK: Yehuda Katz
+* RJ: Robert Jackson
+* RM: Ricardo Mendes
+* GC: Godfrey Chan
+* KG: Katie Gengler
+* KS: Kris Selden
+* MB: Mathew Beale
+* DG: Dan Gebhardt
+* TD: Tom Dale
+* MM: Martin Muñoz
 
 ### Minutes
 
@@ -23,7 +32,7 @@ RJ: We should make a RELEASE.md in the repo, formalize the documentation, and th
 
 MB: Maybe we can have a goal of having a different person do each 2.16-beta release.
 
-#### Glimmer Components in ember
+#### Glimmer Components in Ember
 
 (discussion)
 
