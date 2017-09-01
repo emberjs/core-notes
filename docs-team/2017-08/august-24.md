@@ -28,7 +28,7 @@
 
 ### Attendees (Initials: Name @slack-id)
 - TJ: Todd Jordan @todd.jordan
-- RM: Richardo Mendes
+- RM: Ricardo Mendes @locks
 - JW: Jen Weber @jenweber
 - MS: Melanie Sumner @melsumner
 - TZ: Teddy Zeenny: @teddy
