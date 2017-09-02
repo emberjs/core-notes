@@ -13,14 +13,14 @@
 - [ ] RT: Write Rolodex/Contact Book Tutorial to launch with 2.16
 - [ ] TJ/RM: record/task out stuff that needs to be done for the api changes in 2.16
 - [ ] JW: see what breaks upstream when trying out @module/submodule format in YUIdocs (how does this affect jsonapi-docs and API site)
-- [ ] RM, Teddy, Jessica: solicit contributors for js module (176) testing of ember inspector
+- [x] RM, Teddy, Jessica: solicit contributors for js module (176) testing of ember inspector
 
 ## Minutes
 
 ### Attendees (Initials: Name @slack-id)
 
 - TJ: Todd Jordan @todd.jordan
-- RM: Richardo Mendes
+- RM: Ricardo Mendes @locks
 - JW: Jen Weber @jenweber
 - MS: Melanie Sumner @melsumner
 - JJ: Jessica Jordan @jessica
