@@ -1,5 +1,7 @@
 # Meeting: Ember Core Team 2017/09/08
 
+## Agenda
+
 - 2.15 regressions (YK)
   - [{{link-to}} inside a partial stopped working](https://github.com/emberjs/ember.js/issues/15621)
 - Ember.String RFC - where should `isHTMLSafe`, `htmlSafe` go
