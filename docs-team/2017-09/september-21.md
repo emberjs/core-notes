@@ -69,7 +69,7 @@ RT: I also have a TDD with Ember session coming up.  Hoping to have it recorded
 
 #### Build/Status Page
 
-RM: Got a volunteer to implement auto update of builds page. (name here).  Post 2.8 should be on npm.
+RM: Got a volunteer to implement auto update of builds page, xomaczar. Ember post 2.8 should be on npm.
 
 RM: there’s also the status page that is nearing MVP, so we will want to deploy soon.  Will have roadmap after the face to face this weekend.
 
