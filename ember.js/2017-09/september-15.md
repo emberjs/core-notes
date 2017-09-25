@@ -163,15 +163,10 @@ Resolution: The eager compiler can be supported only in IE11 up. So in IE9 and 1
 
 ### PR Review
 
-https://github.com/emberjs/ember.js/pull/13957
+* [emberjs/ember.js#13957](https://github.com/emberjs/ember.js/pull/13957)
 
-
-[emberjs/ember.js#13957](https://github.com/emberjs/ember.js/pull/13957)
 We will close, @Robert J will leave comment explaining why.
 
+* [emberjs/ember.js#13800](https://github.com/emberjs/ember.js/pull/13800)
 
-https://github.com/emberjs/ember.js/pull/13800
-
-
-[emberjs/ember.js#13800](https://github.com/emberjs/ember.js/pull/13800)
 We didn’t merge this before because we didn’t have reliable performance testing infrastructure. Now that we do, @Robert J is going to rebase and run some performance tests to see if this actually moves the needle.
