@@ -2,7 +2,7 @@
 
 ## Agenda
 
--[Named Releases RFC](https://github.com/emberjs/rfcs/pull/259) (RJ)
+- [Named Releases RFC](https://github.com/emberjs/rfcs/pull/259) (RJ)
 - Multisplattributes (TD)
 - Merge https://github.com/emberjs/rfcs/pull/252
 - Props / Attributes re-litigation (aka modifiers as the vector) (CH)
