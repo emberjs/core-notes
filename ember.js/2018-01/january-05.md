@@ -1,6 +1,7 @@
 # Meeting: Ember Core Team 2018/01/05
 
 ## Agenda
+
 - Promotional Ember 3.0 strategy (RM)
   - emberjs.com posts
   - posts for non-Emberistas?
@@ -33,6 +34,7 @@
 ## Minutes
 
 ### Promotional Ember 3.0 Strategy
+
 RJ: People treat major version bumps as a big deal, even if we don’t.
 EF: We can use our unusual position as a way of getting people’s attention, almost being adversarial about how you’re “doing it wrong” if you treat OSS libraries like corporate, proprietary software and you need to sell an upgrade.
 YK: We can learn from how Linux handled 3.0 kernel release.
