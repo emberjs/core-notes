@@ -26,5 +26,3 @@
 - [x] Melanie Sumner
 
 ## Minutes
-
-

@@ -28,8 +28,9 @@
 
 ## Minutes
 
-Discussion: ember-cli will have LTS versions
-Discussion: browser support policy
+### ember-cli will have LTS versions
+
+### browser support policy
 
 - consensus: evergreen-2 + IE11
 - what about Safari?
@@ -37,7 +38,7 @@ Discussion: browser support policy
 - Tom: CI browsers seems honest
 - Rob: Lockdown on release (2.18 releases and was tested against Chrome 987, need to lock it down)
 
-Discussion: DOM API for tagless components
+### DOM API for tagless components
 
 - Tom: we don’t have a good way to support this right now- it’s a fragment so there’s no this.element. I think we discussed something like a ref helper. I asked the person who inquired “do you want to work on this RFC?” & they said sure, but I wanted to check first to see if there was existing work happening.
 - Kris: there’s already an RFC for an element modifier that could be built on
@@ -46,11 +47,10 @@ Discussion: DOM API for tagless components
 - (more discussion about technical details)
 - Ed: this shouldn’t be considered a substitute for the view-bounds (API?)
 
-Discussion: Some current bugs/regressions
+### Some current bugs/regressions
 
 - Kris: don’t recommend that anyone release 3.1 into production
 - Rob: I’ll tag the serious ones and if you can help, please do
 - Martin: are we going to have a deadline to fix the serious ones before the next release?
 - Rob: We should have a 3.1.1 release. Good call.
 - (more discussion about some specific bugs)
-

@@ -47,4 +47,3 @@ MS: I am finishing Ember CLI prose, will merge by tonight
 ### emberjs.com/blog
 
 YK: the blog has broken IA
-

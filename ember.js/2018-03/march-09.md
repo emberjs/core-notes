@@ -26,4 +26,3 @@
 - [x] Katie Gengler
 
 ## Minutes
-

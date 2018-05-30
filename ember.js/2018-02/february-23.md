@@ -221,10 +221,3 @@ RJ: services, components, helpers should be namespaced?
 DG: Yes, this RFC goes beyond the original MU RFC in that it allows for implicit namespacing of services, components, and helpers within addons. In other words, instead of requiring that a top-level component within an addon always be referenced with a namespace (i.e. `{{my-namespace::my-component}}`), it will be allowed for other templates *within the addon* to reference that component simply as `{{my-component}}`. This will not be allowed for components such as `{{my-namespace::main}}` which are not valid single word components, but such components will be fine in angle bracket form eventually ( `<Main>`) or could use the component helper (`{{component` `'``main``'``}}`). All of this also holds true for service injections and helpers.
 
 DG: Please read the RFC for complete details.
-
-
-
-
-
-
-
