@@ -12,22 +12,22 @@
 
 ## Attendees
 
-[ ] Yehuda Katz
-[ ] Tom Dale
-[x] Kris Selden
-[ ] Stefan Pennter
-[ ] Leah Silber
-[x] Robert Jackson
-[ ] Igor Terzic
-[x] Matthew Beale
-[x] Edward Faulkner
-[x] Martin Muñoz
-[x] Dan Gebhardt
-[x] Godfrey Chan
-[ ] Ricardo Mendes
-[x] Chad Hietala
-[x] Katie Gengler
-[ ] Melanie Sumner
+- [ ] Yehuda Katz
+- [ ] Tom Dale
+- [x] Kris Selden
+- [ ] Stefan Pennter
+- [ ] Leah Silber
+- [x] Robert Jackson
+- [ ] Igor Terzic
+- [x] Matthew Beale
+- [x] Edward Faulkner
+- [x] Martin Muñoz
+- [x] Dan Gebhardt
+- [x] Godfrey Chan
+- [ ] Ricardo Mendes
+- [x] Chad Hietala
+- [x] Katie Gengler
+- [ ] Melanie Sumner
 
 ## Minutes
 
