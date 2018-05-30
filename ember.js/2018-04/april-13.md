@@ -37,12 +37,14 @@
 
 ## Minutes
 
-**3.1**
+### 3.1
+
 RJ: there’s still a couple bug fixes we need to land
 RJ: but it seems to be going well, apart from some expected `proxy` problems
 RJ: we haven’t released the blog post, I think Mel has been working on it?
 MS: I am finishing Ember CLI prose, will merge by tonight
 
-**emberjs.com/blog**
+### emberjs.com/blog
+
 YK: the blog has broken IA
 

@@ -157,7 +157,7 @@ RJ: We should do some benchmarks.
 
 (discussion)
 
-### (p****ublic****) status of Engines/FastBoot
+### status of Engines/FastBoot
 
 RM: Can we skip this for PWA?
 
@@ -172,7 +172,7 @@ YK: I think there should be an RFC.
 MB: I think manifest is the easiest thing, really.
 
 ### Glimmer VM update
-****
+
 YK: I did a bunch of changes to Glimmer VM and we should update Ember very soon.
 
 TD: Lets do it

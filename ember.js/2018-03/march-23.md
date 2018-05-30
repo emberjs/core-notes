@@ -38,7 +38,7 @@
 
 ## Minutes
 
-**Ember.Map deprecation RFC**
+### Ember.Map deprecation RFC
 
 RJ: Steps here have mostly been done. Updated ember-data to not use ember.map or ordered set. ED no longer issues this deprecation. That work was landed into the current beta.
 
@@ -48,7 +48,7 @@ RJ: Should I have even raised it before merging?
 
 TD: Yes. Sounds good.
 
-**Decision for go/no-go let**
+### Decision for go/no-go let
 
 TD: Do we have docs?
 
@@ -80,7 +80,7 @@ MB: do we need to add a new API `if-let` with the exact same semantics of `with`
 
 CH, RJ: agree
 
-**mandatory this.**
+### mandatory this.
 
 RJ: Did we merge the component manager RFC? Ah we did!
 
@@ -130,7 +130,7 @@ TD: In the interest of moving forward, can we say we want a codemod people can r
 
 RJ: Yes and I am happy to help. What is slightly unfortunate is that there are groups hesitant to move forward because it is not merged, and others hesitant to merge it. I will comment we have discussed concerns in length and say we will work on the linting and codemod.
 
-**<Angle />**
+### <Angle />
 
 RJ: As far as I am aware (read this last night) all of the comments, negative stuff has been addressed. GC in my last comment I mentioned that we should have an explicit policy for / in names.
 

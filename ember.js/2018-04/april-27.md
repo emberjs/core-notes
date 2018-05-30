@@ -29,7 +29,7 @@
 
 ## Minutes
 
-**Homepage**
+### Homepage
 
 TD: There was a steering committee meeting before this but it sounds like it wasn’t super attended anyway. I talked with Sam and Ryan about homepage stuff. I want to propose creating a sprint team that has a rep from a number of teams and grant a mandate to update the homepage. I want it to not be a boil the ocean redesign task, but focus it only on the homepage.
 
@@ -59,7 +59,7 @@ TD: Ok. I am desperately hopeful that MS is part of this effort. I‘m a bit wor
 
 (discussion)
 
-**Router / Screen Reader**
+### Router / Screen Reader
 
 MS: I need some help from someone who can validate and focus ideas.
 
@@ -91,11 +91,11 @@ YK: I think we already have a heuristic for when fastboot must flush, why is tha
 
 EF: Some things like focus have side effects. I would really love to participate in the spec and see if there is a way to tell the browser what to do. We might need to get changes to the spec to better handle this, which could take time for sure.
 
-**MU Namespace Scratchpad**
+### MU Namespace Scratchpad
 
 (discussion)
 
-**Angle RFCS**
+### Angle RFCS
 
 RJ: Are we good?
 
@@ -103,7 +103,7 @@ GC: I think we are. Someone was saying they would make small changes to address 
 
 RJ: ah yeah that is me. I will do that and land it.
 
-**Ember data**
+### Ember data
 
 RJ: FYI the ED team is in Greece looking at the onramp and other things. But I want to land the record data RFC, it has been FCP for several months.
 
@@ -111,25 +111,6 @@ YK: Why are they not merging it?
 
 RJ: Right, yeah.
 
-**Ember modules API**
+### Ember modules API
 
 RJ: In progress. Kris is doing the yeoman’s work of untangling things. I think we are about 50% done, half are in the new official locations. I’m playing with emitting the APIs to rollup and seeing what we can shake out
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

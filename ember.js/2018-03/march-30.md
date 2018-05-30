@@ -36,7 +36,7 @@
 
 ## Minutes
 
-**MU-ST**
+### MU-ST
 
 KS: Tobias had some concerns about losing HTML tooling with named blocks.
 
@@ -44,7 +44,7 @@ YK: We are kind of stuck on the scoped package as namespace issue, we need to st
 
 MB: My job for the weekend seems to be to write this up and come up with some ideas.
 
-**array helper**
+### array helper
 
 YK: It would be nice if we didn’t need to reify the array. That the implementation could avoid round-tripping to JS would be good.
 
@@ -52,19 +52,19 @@ RJ: This is an internal helper, so I think we could do that.
 
 Good to FCP!
 
-**copyable deprecate**
+### copyable deprecate
 
 RJ: I love that this author jumped in a did a bunch of detailed work.
 
 Good to FCP!
 
-**each-in**
+### each-in
 
 GC: let’s give this a little more time. Looks good, but I’d like more feedback.
 
 Hold on FCP!
 
-**improve CP ergonomics**
+### improve CP ergonomics
 
 (discussion)
 
@@ -72,7 +72,7 @@ YK: I think we should FCP to close, and say that we expect to change the semanti
 
 FCP to close!
 
-**html-safe**
+### html-safe
 
 (discussion, a lots of pushback about the string `html-safe` being confusing)
 
@@ -104,7 +104,7 @@ YK: I think we could and we could tell people use to some NPM package that shoul
 
 YK and MM will work on this.
 
-**array functions**
+### array functions
 
 RJ: Basically some utils so we can move away for prototype extensions.
 
@@ -154,7 +154,7 @@ KS: I think we need to have a mechanical transform as well.
 
 RJ: I presume MM will update the RFC.
 
-**<AngleBracket />**
+### <AngleBracket />
 
 YK: I’ve realized that the aspects of the angle design I find nice have not been articulated clearly. Obv they would need to be described in the docs, but we are not there yet. We have {{ and expressions, if a thing is callable we call it. Increasingly we allow you to call things not on the filesystem. There are some inconsistencies that are fine.
 
