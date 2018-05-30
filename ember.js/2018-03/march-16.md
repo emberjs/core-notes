@@ -4,9 +4,6 @@
   Previous week: +Meeting: Ember Core Team 2018/03/09 
 
 
-- (public) 
-- (private)
-
 Next week: +Meeting: Ember Core Team 2018/03/23 
 
 ## Attendees

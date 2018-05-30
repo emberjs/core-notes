@@ -4,10 +4,10 @@
   Previous week: +Meeting: Ember Core Team 2018/04/20
 
 
-- (public) Homepage Strike Team (TD)
-- (public) Router / Screen Reader Issues (MS)
-- (public) MU Namespace Scratchpad +Module Unification Namespace Scratchpad  (MB)
-- (public) [Angle Bracket RFC](https://github.com/emberjs/rfcs/pull/311) (RJ)
+- Homepage Strike Team (TD)
+- Router / Screen Reader Issues (MS)
+- MU Namespace Scratchpad +Module Unification Namespace Scratchpad  (MB)
+- [Angle Bracket RFC](https://github.com/emberjs/rfcs/pull/311) (RJ)
 
 Next week: +Meeting: Ember Core Team 2018/05/04
 
@@ -60,7 +60,7 @@ TD: Ok. I am desperately hopeful that MS is part of this effort. I‘m a bit wor
 
 (discussion)
 
-**(public) Router / Screen Reader**
+**Router / Screen Reader**
 
 MS: I need some help from someone who can validate and focus ideas.
 

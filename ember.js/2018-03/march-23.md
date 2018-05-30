@@ -4,7 +4,7 @@
   Previous week: +Meeting: Ember Core Team 2018/03/16 
 
 
-- (public) RFC Review [RJ]
+- RFC Review [RJ]
   - in-element RFC: https://github.com/emberjs/rfcs/pull/287
   - `[Ember.Map](https://github.com/emberjs/rfcs/pull/237)` [/](https://github.com/emberjs/rfcs/pull/237) `[Ember.MapWithDefault](https://github.com/emberjs/rfcs/pull/237)` [/](https://github.com/emberjs/rfcs/pull/237) `[Ember.OrderedSet](https://github.com/emberjs/rfcs/pull/237)` [deprecation RFC](https://github.com/emberjs/rfcs/pull/237)
   - “go” / “no-go” decision for `let`: https://github.com/emberjs/ember.js/pull/16384
@@ -13,11 +13,11 @@
   - Attributes vs. Props RFC https://github.com/emberjs/rfcs/pull/314
     - People do not like
   - (Component Manager RFC is merged https://github.com/emberjs/rfcs/pull/213)
-[](https://github.com/emberjs/rfcs/pull/237)- (public) discuss.emberjs.com administrivia [RJ]
-- (public) `#topic-talks` in community slack [RJ]
-- (public) Default template helpers in Ember.js [RM]
-- (public) discuss.emberjs.com usage… [RJ]
-- (public) emberjs.com/blog [RM]
+[](https://github.com/emberjs/rfcs/pull/237)- discuss.emberjs.com administrivia [RJ]
+- `#topic-talks` in community slack [RJ]
+- Default template helpers in Ember.js [RM]
+- discuss.emberjs.com usage… [RJ]
+- emberjs.com/blog [RM]
 
 Next week: +Meeting: Ember Core Team 2018/03/30 
 

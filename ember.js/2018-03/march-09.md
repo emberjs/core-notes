@@ -5,7 +5,7 @@
 
 
 - Custom Components RFC (GC)
-- (public) https://github.com/emberjs/rfcs/pull/237 - Deprecate `Ember.Map` / `Ember.OrderedSet` …
+- https://github.com/emberjs/rfcs/pull/237 - Deprecate `Ember.Map` / `Ember.OrderedSet` …
 - 💟See You Soon💟
 
 Next week: +Meeting: Ember Core Team 2018/03/16

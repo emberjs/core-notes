@@ -2,7 +2,7 @@
 
 ## Agenda
 
-- (public) RFCs
+- RFCs
   - To Merge
     - https://github.com/emberjs/rfcs/pull/284 Splitting Ember into packages
     - https://github.com/emberjs/rfcs/pull/297 Deprecate Ember.Logger
@@ -13,10 +13,10 @@
     - https://github.com/emberjs/rfcs/pull/272 Deprecate `Function.prototype.{on,observes,property}`
   - Status
     - Component Manager RFC
-- (public) Readers’ Questions
+- Readers’ Questions
   - [https://gist.github.com/kategengler/8a3c4c8e7c9d885b842a98076431cfc3](https://gist.github.com/kategengler/8a3c4c8e7c9d885b842a98076431cfc3) How to pitch Ember?
   - +Ask Core, 2018-02-22 “ember explode” means glimmerjs is not necessary?
-- (public) Module Unification Namespaces RFC Draft [https://gist.github.com/mixonic/79ddcdd0539d04480d3d04e281e370ef](https://gist.github.com/mixonic/79ddcdd0539d04480d3d04e281e370ef)
+- Module Unification Namespaces RFC Draft [https://gist.github.com/mixonic/79ddcdd0539d04480d3d04e281e370ef](https://gist.github.com/mixonic/79ddcdd0539d04480d3d04e281e370ef)
 
 ## Attendees
 [x] Yehuda Katz

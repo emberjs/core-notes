@@ -4,9 +4,9 @@
   Previous week: +Meeting: Ember Core Team 2018/03/30
 
 
-- (public) `{{array` RFC → merged… https://github.com/emberjs/rfcs/pull/318
-- (public) <AngleBracketInvocation /> RFC → FCP to merge
-- (public) “Slack Issues” https://discuss.emberjs.com/t/should-ember-be-using-slack-at-all/14474  [RJ]
+- `{{array` RFC → merged… https://github.com/emberjs/rfcs/pull/318
+- <AngleBracketInvocation /> RFC → FCP to merge
+- “Slack Issues” https://discuss.emberjs.com/t/should-ember-be-using-slack-at-all/14474  [RJ]
 
 Next week: +Meeting: Ember Core Team 2018/04/13
 

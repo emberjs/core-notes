@@ -4,9 +4,9 @@
   Previous week: +Meeting: Ember Core Team 2018/03/23
 
 
-- (public) emberjs.com/blog [RM]
-- (public) Module Unification ST meeting again on Mondays at 12pm NYC time
-- (public) RFCs
+- emberjs.com/blog [RM]
+- Module Unification ST meeting again on Mondays at 12pm NYC time
+- RFCs
   - https://github.com/emberjs/rfcs/pull/318 - `array` helper - FCP to merge
   - https://github.com/emberjs/rfcs/pull/322 - Deprecate `Ember.copy` and `Ember.Copyable` - FCP to merge
   - https://github.com/emberjs/rfcs/pull/321 - `{{#each-in` and `{{#each` key function - Needs more design, maybe FCP to merge next week
@@ -14,7 +14,7 @@
   - https://github.com/emberjs/rfcs/pull/319 - `html-safe` helper - Needs more design
   - https://github.com/emberjs/rfcs/pull/323 - Array functions - Needs more design
   - <AngleBracket />?
-- (public) CoreObject / ES<latest> Build Work
+- CoreObject / ES<latest> Build Work
 
 Next week: +Meeting: Ember Core Team 2018/04/06
 

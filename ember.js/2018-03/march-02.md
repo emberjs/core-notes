@@ -4,10 +4,10 @@
   Previous week: +Meeting: Ember Core Team 2018/02/23
 
 
-- (public) Delaying dropping `this.get()` in Ember 3.1 (TD)
+- Delaying dropping `this.get()` in Ember 3.1 (TD)
   - https://gist.github.com/tomdale/37af947b3dfc52093cd0e9475ef9b550
-- (public) `onClick` regression https://github.com/emberjs/ember.js/issues/16311
-- (public) highlights from [RFC 309: Module Unification Namespaces](https://github.com/emberjs/rfcs/pull/309)
+- `onClick` regression https://github.com/emberjs/ember.js/issues/16311
+- highlights from [RFC 309: Module Unification Namespaces](https://github.com/emberjs/rfcs/pull/309)
   - [Implicit namespaces in templates](https://github.com/mixonic/rfcs/blob/mu-namespaces/text/0000-module-unification-namespaces.md#implicit-namespaces-in-templates)
   - [Implicit namespaces in services](https://github.com/mixonic/rfcs/blob/mu-namespaces/text/0000-module-unification-namespaces.md#implicit-namespaces-in-services)
     - Can we close over the addon scope and have a special service inject for the addon?
@@ -21,7 +21,7 @@
     - We have new consensus to not do this
   - [Namespace and source APIs on owner](https://github.com/mixonic/rfcs/blob/mu-namespaces/text/0000-module-unification-namespaces.md#namespace-and-source-apis-on-owner), and the limits of those APIs (no way to address factory specific injections, options)
   - [Resolver API](https://github.com/mixonic/rfcs/blob/mu-namespaces/text/0000-module-unification-namespaces.md#adding-support-to-the-ember-resolver), implement via expandLocalLookup
-- (public) RFCs
+- RFCs
   - Close?
     - https://github.com/emberjs/rfcs/pull/237 “Remove Ember.Map, Ember.MapWithDefault and Ember.OrderedSet”
     - https://github.com/emberjs/rfcs/pull/202 “Allow the `with` helper accept named arguments”

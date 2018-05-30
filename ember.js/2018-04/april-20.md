@@ -4,9 +4,9 @@
   Previous week: +Meeting: Ember Core Team 2018/04/13
 
 
-- (public) Ember CLI LTS
-- (public) DOM API for tagless components (TD)
-- (public) [Browser Support Policy](https://github.com/emberjs/website/issues/2870)
+- Ember CLI LTS
+- DOM API for tagless components (TD)
+- [Browser Support Policy](https://github.com/emberjs/website/issues/2870)
 
 Next week: +Meeting: Ember Core Team 2018/04/27
 

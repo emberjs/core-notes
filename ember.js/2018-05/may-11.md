@@ -5,7 +5,7 @@
 
 
 - Review message for This.JavaScript: Accessibility event on May 17th
-- (public) Roadmap status update (MS/YK)
+- Roadmap status update (MS/YK)
 - (private)
 
 Next week: +Meeting: Ember Core Team 2018/05/18

@@ -4,12 +4,12 @@
   Previous week: +Meeting: Ember Core Team 2018/05/11 
 
 
-- (public) Minor MU Update
+- Minor MU Update
   - RJ: Multiple apps for acceptance tests
   - MB: handlebars precompiler has a PR for getting the correct context
-- (public) Upcoming release
-- (public) [ember-engines 1.0 roadmap](https://gist.github.com/MelSumner/17d3cc6166771c880afd9124e79dad95)
-- (public) What’s next action for angle bracket invocation? -EF
+- Upcoming release
+- [ember-engines 1.0 roadmap](https://gist.github.com/MelSumner/17d3cc6166771c880afd9124e79dad95)
+- What’s next action for angle bracket invocation? -EF
 
 Next week: +Meeting: Ember Core Team 2018/05/25  
 
