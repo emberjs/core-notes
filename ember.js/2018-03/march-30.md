@@ -1,8 +1,6 @@
 # Meeting: Ember Core Team 2018/03/30
 
 ## Agenda
-  Previous week: +Meeting: Ember Core Team 2018/03/23
-
 
 - emberjs.com/blog [RM]
 - Module Unification ST meeting again on Mondays at 12pm NYC time
@@ -16,9 +14,9 @@
   - <AngleBracket />?
 - CoreObject / ES<latest> Build Work
 
-Next week: +Meeting: Ember Core Team 2018/04/06
 
 ## Attendees
+
 [x] Yehuda Katz
 [ ] Tom Dale
 [x] Kris Selden
@@ -35,6 +33,7 @@ Next week: +Meeting: Ember Core Team 2018/04/06
 [x] Chad Hietala
 [ ] Katie Gengler
 [x] Mel Sumner
+
 ## Minutes
 
 **MU-ST**

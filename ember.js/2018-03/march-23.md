@@ -1,8 +1,6 @@
 # Meeting: Ember Core Team 2018/03/23
 
 ## Agenda
-  Previous week: +Meeting: Ember Core Team 2018/03/16 
-
 
 - RFC Review [RJ]
   - in-element RFC: https://github.com/emberjs/rfcs/pull/287
@@ -19,9 +17,8 @@
 - discuss.emberjs.com usage… [RJ]
 - emberjs.com/blog [RM]
 
-Next week: +Meeting: Ember Core Team 2018/03/30 
-
 ## Attendees
+
 [ ] Yehuda Katz
 [x] Tom Dale
 [x] Kris Selden
@@ -38,6 +35,7 @@ Next week: +Meeting: Ember Core Team 2018/03/30
 [x] Chad Hietala
 [x] Katie Gengler
 [x] Melanie Sumner
+
 ## Minutes
 
 **Ember.Map deprecation RFC**

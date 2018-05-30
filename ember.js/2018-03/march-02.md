@@ -1,8 +1,6 @@
 # Meeting: Ember Core Team 2018/03/02
 
 ## Agenda
-  Previous week: +Meeting: Ember Core Team 2018/02/23
-
 
 - Delaying dropping `this.get()` in Ember 3.1 (TD)
   - https://gist.github.com/tomdale/37af947b3dfc52093cd0e9475ef9b550
@@ -28,9 +26,8 @@
   - https://github.com/emberjs/rfcs/pull/308 What do we do about `this`; pun intended?
 
 
-Next week: +Meeting: Ember Core Team 2018/03/09
-
 ## Attendees
+
 [x] Yehuda Katz
 [x] Tom Dale
 [x] Kris Selden

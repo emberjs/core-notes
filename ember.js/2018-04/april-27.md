@@ -1,17 +1,15 @@
 # Meeting: Ember Core Team 2018/04/27
 
 ## Agenda
-  Previous week: +Meeting: Ember Core Team 2018/04/20
-
 
 - Homepage Strike Team (TD)
 - Router / Screen Reader Issues (MS)
 - MU Namespace Scratchpad +Module Unification Namespace Scratchpad  (MB)
 - [Angle Bracket RFC](https://github.com/emberjs/rfcs/pull/311) (RJ)
 
-Next week: +Meeting: Ember Core Team 2018/05/04
 
 ## Attendees
+
 [x] Yehuda Katz
 [x] Tom Dale
 [x] Kris Selden
@@ -28,6 +26,7 @@ Next week: +Meeting: Ember Core Team 2018/05/04
 [x] Chad Hietala
 [ ] Katie Gengler
 [x] Melanie Sumner
+
 ## Minutes
 
 **Homepage**

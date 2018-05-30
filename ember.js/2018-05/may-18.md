@@ -1,8 +1,6 @@
 # Meeting: Ember Core Team 2018/05/18
 
 ## Agenda
-  Previous week: +Meeting: Ember Core Team 2018/05/11 
-
 
 - Minor MU Update
   - RJ: Multiple apps for acceptance tests
@@ -11,9 +9,9 @@
 - [ember-engines 1.0 roadmap](https://gist.github.com/MelSumner/17d3cc6166771c880afd9124e79dad95)
 - What’s next action for angle bracket invocation? -EF
 
-Next week: +Meeting: Ember Core Team 2018/05/25  
 
 ## Attendees
+
 [ ] Yehuda Katz
 [ ] Tom Dale
 [x] Kris Selden
@@ -30,6 +28,7 @@ Next week: +Meeting: Ember Core Team 2018/05/25
 [x] Chad Hietala
 [x] Katie Gengler
 [ ] Melanie Sumner
+
 ## Minutes
 
 **Minor MU Update**

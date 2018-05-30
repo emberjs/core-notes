@@ -19,6 +19,7 @@
 - Module Unification Namespaces RFC Draft [https://gist.github.com/mixonic/79ddcdd0539d04480d3d04e281e370ef](https://gist.github.com/mixonic/79ddcdd0539d04480d3d04e281e370ef)
 
 ## Attendees
+
 [x] Yehuda Katz
 [x] Tom Dale
 [ ] Kris Selden
@@ -34,6 +35,7 @@
 [x] Ricardo Mendes
 [x] Chad Hietala
 [x] Katie Gengler
+
 ## Minutes
 
 ### RFC** **Splitting Ember into packages

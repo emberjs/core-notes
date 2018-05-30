@@ -1,8 +1,6 @@
 # Meeting: Ember Core Team 2018/04/13
 
 ## Agenda
-  Previous week: +Meeting: Ember Core Team 2018/04/06
-
 
 - Ember 3.1
   - [emberjs/ember.js#16503](https://github.com/emberjs/ember.js/issues/16503): `Cannot read property 'syscall' of null`
@@ -18,9 +16,8 @@
     - `Ember.HTMLBars.template` / `Ember.HTMLBars.compile`
 - Roadmap Kickoff Heads Up (TD)
 
-Next week: +Meeting: Ember Core Team 2018/04/20
-
 ## Attendees
+
 [x] Yehuda Katz
 [x] Tom Dale
 [x] Kris Selden
@@ -37,6 +34,7 @@ Next week: +Meeting: Ember Core Team 2018/04/20
 [x] Chad Hietala
 [x] Katie Gengler
 [x] Melanie Sumner
+
 ## Minutes
 
 **3.1**

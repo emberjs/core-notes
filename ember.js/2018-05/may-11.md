@@ -1,16 +1,13 @@
 # Meeting: Ember Core Team 2018/05/11
 
 ## Agenda
-  Previous week: +Meeting: Ember Core Team 2018/05/04
-
 
 - Review message for This.JavaScript: Accessibility event on May 17th
 - Roadmap status update (MS/YK)
 - (private)
 
-Next week: +Meeting: Ember Core Team 2018/05/18
-
 ## Attendees
+
 [x] Yehuda Katz
 [ ] Tom Dale
 [ ] Kris Selden
@@ -27,6 +24,7 @@ Next week: +Meeting: Ember Core Team 2018/05/18
 [ ] Chad Hietala
 [x] Katie Gengler
 [x] Melanie Sumner
+
 ## Minutes
 
 
