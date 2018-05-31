@@ -2,7 +2,7 @@
 
 ## Agenda
 
-- (public) RFCs
+- RFCs
   - To Merge
     - https://github.com/emberjs/rfcs/pull/284 Splitting Ember into packages
     - https://github.com/emberjs/rfcs/pull/297 Deprecate Ember.Logger
@@ -13,30 +13,32 @@
     - https://github.com/emberjs/rfcs/pull/272 Deprecate `Function.prototype.{on,observes,property}`
   - Status
     - Component Manager RFC
-- (public) Readers’ Questions
+- Readers’ Questions
   - [https://gist.github.com/kategengler/8a3c4c8e7c9d885b842a98076431cfc3](https://gist.github.com/kategengler/8a3c4c8e7c9d885b842a98076431cfc3) How to pitch Ember?
   - +Ask Core, 2018-02-22 “ember explode” means glimmerjs is not necessary?
-- (public) Module Unification Namespaces RFC Draft [https://gist.github.com/mixonic/79ddcdd0539d04480d3d04e281e370ef](https://gist.github.com/mixonic/79ddcdd0539d04480d3d04e281e370ef)
+- Module Unification Namespaces RFC Draft [https://gist.github.com/mixonic/79ddcdd0539d04480d3d04e281e370ef](https://gist.github.com/mixonic/79ddcdd0539d04480d3d04e281e370ef)
 
 ## Attendees
-[x] Yehuda Katz
-[x] Tom Dale
-[ ] Kris Selden
-[ ] Stefan Pennter
-[ ] Leah Silber
-[x] Robert Jackson
-[x] Igor Terzic
-[x] Matthew Beale
-[x] Edward Faulkner
-[x] Martin Muñoz
-[x] Dan Gebhardt
-[ ] Godfrey Chan
-[x] Ricardo Mendes
-[x] Chad Hietala
-[x] Katie Gengler
+
+- [x] Yehuda Katz
+- [x] Tom Dale
+- [ ] Kris Selden
+- [ ] Stefan Pennter
+- [ ] Leah Silber
+- [x] Robert Jackson
+- [x] Igor Terzic
+- [x] Matthew Beale
+- [x] Edward Faulkner
+- [x] Martin Muñoz
+- [x] Dan Gebhardt
+- [ ] Godfrey Chan
+- [x] Ricardo Mendes
+- [x] Chad Hietala
+- [x] Katie Gengler
+
 ## Minutes
 
-### RFC** **Splitting Ember into packages
+### RFC - Splitting Ember into packages
 
 (discussion)
 
@@ -62,7 +64,7 @@ YK: EF if you think breaking it apart works that sounds good for the RFC. If not
 
 EF: Sounds good. I also need to update and bucket community concerns.
 
-### RFC** **Deprecate Ember.Logger
+### RFC - Deprecate Ember.Logger
 
 RJ: I was already supposed to merge this. I will get that done just after the call with a nice comment. This person Ralph has done a great job. Boston meetup attendee.
 
@@ -70,7 +72,7 @@ RJ: Alex asked if there was a way to support many versions of Ember, I will chim
 
 (discussion)
 
-### RFC** **Ember Data Model Data
+### RFC - Ember Data Model Data
 
 TD: IT is not here to get this going. Last time he was here he wanted to change the terminology, and mention if a better name comes up during implementation we can change it.
 
@@ -122,7 +124,7 @@ IT: I am planning with MM for a time to pair.
 
 RJ: MM has been responsive on the issue, so it doesn’t appear to be ignored.
 
-### RFC** **Deprecate Component Lifecycle Events
+### RFC - Deprecate Component Lifecycle Events
 
 RJ: I think this is not ready for merging or FCP. We talked last time about YK and DG having reservations. I need them to chime in. About the mixin use case.
 
@@ -130,7 +132,7 @@ DG: Yeah I have a todo, we should not let it linger. YK I will review with you.
 
 RJ: I think some of the smaller changes we made were: Ensure the codemod make sure super is called in hook, and make sure the linter checks for super being called in those hooks.
 
-### RFC** **Deprecate Property Fallback Behavior
+### RFC - Deprecate Property Fallback Behavior
 
 RJ: I would like to see this move forward.
 
@@ -190,8 +192,8 @@ YK: So yes to FCP, lets make sure we get eyeballs on it.
 
 RJ: It will be good to show people we are serious and work on the codemod etc. I’d like to have the codemod out next week.
 
-### Deprecate** `**Function.prototype.{on,observes,property}`
-****
+### Deprecate `Function.prototype.{on,observes,property}`
+
 YK: I am not personally ready to FCP this. It has a problem of seeming very noisy without giving a win to people.
 
 TD: It seems trivial to pull the deprecation into an addon and maintain it over time.
@@ -219,10 +221,3 @@ RJ: services, components, helpers should be namespaced?
 DG: Yes, this RFC goes beyond the original MU RFC in that it allows for implicit namespacing of services, components, and helpers within addons. In other words, instead of requiring that a top-level component within an addon always be referenced with a namespace (i.e. `{{my-namespace::my-component}}`), it will be allowed for other templates *within the addon* to reference that component simply as `{{my-component}}`. This will not be allowed for components such as `{{my-namespace::main}}` which are not valid single word components, but such components will be fine in angle bracket form eventually ( `<Main>`) or could use the component helper (`{{component` `'``main``'``}}`). All of this also holds true for service injections and helpers.
 
 DG: Please read the RFC for complete details.
-
-
-
-
-
-
-

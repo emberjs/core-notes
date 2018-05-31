@@ -1,10 +1,8 @@
 # Meeting: Ember Core Team 2018/03/23
 
 ## Agenda
-  Previous week: +Meeting: Ember Core Team 2018/03/16 
 
-
-- (public) RFC Review [RJ]
+- RFC Review [RJ]
   - in-element RFC: https://github.com/emberjs/rfcs/pull/287
   - `[Ember.Map](https://github.com/emberjs/rfcs/pull/237)` [/](https://github.com/emberjs/rfcs/pull/237) `[Ember.MapWithDefault](https://github.com/emberjs/rfcs/pull/237)` [/](https://github.com/emberjs/rfcs/pull/237) `[Ember.OrderedSet](https://github.com/emberjs/rfcs/pull/237)` [deprecation RFC](https://github.com/emberjs/rfcs/pull/237)
   - “go” / “no-go” decision for `let`: https://github.com/emberjs/ember.js/pull/16384
@@ -13,34 +11,34 @@
   - Attributes vs. Props RFC https://github.com/emberjs/rfcs/pull/314
     - People do not like
   - (Component Manager RFC is merged https://github.com/emberjs/rfcs/pull/213)
-[](https://github.com/emberjs/rfcs/pull/237)- (public) discuss.emberjs.com administrivia [RJ]
-- (public) `#topic-talks` in community slack [RJ]
-- (public) Default template helpers in Ember.js [RM]
-- (public) discuss.emberjs.com usage… [RJ]
-- (public) emberjs.com/blog [RM]
-
-Next week: +Meeting: Ember Core Team 2018/03/30 
+[](https://github.com/emberjs/rfcs/pull/237)- discuss.emberjs.com administrivia [RJ]
+- `#topic-talks` in community slack [RJ]
+- Default template helpers in Ember.js [RM]
+- discuss.emberjs.com usage… [RJ]
+- emberjs.com/blog [RM]
 
 ## Attendees
-[ ] Yehuda Katz
-[x] Tom Dale
-[x] Kris Selden
-[ ] Stefan Penner
-[ ] Leah Silber
-[x] Robert Jackson
-[ ] Igor Terzic
-[x] Matthew Beale
-[ ] Edward Faulkner
-[x] Martin Muñoz
-[x] Dan Gebhardt
-[x] Godfrey Chan
-[x] Ricardo Mendes
-[x] Chad Hietala
-[x] Katie Gengler
-[x] Melanie Sumner
+
+- [ ] Yehuda Katz
+- [x] Tom Dale
+- [x] Kris Selden
+- [ ] Stefan Penner
+- [ ] Leah Silber
+- [x] Robert Jackson
+- [ ] Igor Terzic
+- [x] Matthew Beale
+- [ ] Edward Faulkner
+- [x] Martin Muñoz
+- [x] Dan Gebhardt
+- [x] Godfrey Chan
+- [x] Ricardo Mendes
+- [x] Chad Hietala
+- [x] Katie Gengler
+- [x] Melanie Sumner
+
 ## Minutes
 
-**Ember.Map deprecation RFC**
+### Ember.Map deprecation RFC
 
 RJ: Steps here have mostly been done. Updated ember-data to not use ember.map or ordered set. ED no longer issues this deprecation. That work was landed into the current beta.
 
@@ -50,7 +48,7 @@ RJ: Should I have even raised it before merging?
 
 TD: Yes. Sounds good.
 
-**Decision for go/no-go let**
+### Decision for go/no-go let
 
 TD: Do we have docs?
 
@@ -82,7 +80,7 @@ MB: do we need to add a new API `if-let` with the exact same semantics of `with`
 
 CH, RJ: agree
 
-**mandatory this.**
+### mandatory this.
 
 RJ: Did we merge the component manager RFC? Ah we did!
 
@@ -132,7 +130,7 @@ TD: In the interest of moving forward, can we say we want a codemod people can r
 
 RJ: Yes and I am happy to help. What is slightly unfortunate is that there are groups hesitant to move forward because it is not merged, and others hesitant to merge it. I will comment we have discussed concerns in length and say we will work on the linting and codemod.
 
-**<Angle />**
+### <Angle />
 
 RJ: As far as I am aware (read this last night) all of the comments, negative stuff has been addressed. GC in my last comment I mentioned that we should have an explicit policy for / in names.
 
@@ -217,70 +215,3 @@ MM: Is there a namespace solution in the angle brackets RFC?
 RJ: No.
 
 (discussion, DG, GC)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

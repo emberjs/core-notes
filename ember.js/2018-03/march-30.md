@@ -1,12 +1,10 @@
 # Meeting: Ember Core Team 2018/03/30
 
 ## Agenda
-  Previous week: +Meeting: Ember Core Team 2018/03/23
 
-
-- (public) emberjs.com/blog [RM]
-- (public) Module Unification ST meeting again on Mondays at 12pm NYC time
-- (public) RFCs
+- emberjs.com/blog [RM]
+- Module Unification ST meeting again on Mondays at 12pm NYC time
+- RFCs
   - https://github.com/emberjs/rfcs/pull/318 - `array` helper - FCP to merge
   - https://github.com/emberjs/rfcs/pull/322 - Deprecate `Ember.copy` and `Ember.Copyable` - FCP to merge
   - https://github.com/emberjs/rfcs/pull/321 - `{{#each-in` and `{{#each` key function - Needs more design, maybe FCP to merge next week
@@ -14,30 +12,31 @@
   - https://github.com/emberjs/rfcs/pull/319 - `html-safe` helper - Needs more design
   - https://github.com/emberjs/rfcs/pull/323 - Array functions - Needs more design
   - <AngleBracket />?
-- (public) CoreObject / ES<latest> Build Work
+- CoreObject / ES<latest> Build Work
 
-Next week: +Meeting: Ember Core Team 2018/04/06
 
 ## Attendees
-[x] Yehuda Katz
-[ ] Tom Dale
-[x] Kris Selden
-[ ] Stefan Pennter
-[ ] Leah Silber
-[x] Robert Jackson
-[ ] Igor Terzic
-[x] Matthew Beale
-[ ] Edward Faulkner
-[x] Martin Muñoz
-[x] Dan Gebhardt
-[ ] Godfrey Chan
-[x] Ricardo Mendes
-[x] Chad Hietala
-[ ] Katie Gengler
-[x] Mel Sumner
+
+- [x] Yehuda Katz
+- [ ] Tom Dale
+- [x] Kris Selden
+- [ ] Stefan Pennter
+- [ ] Leah Silber
+- [x] Robert Jackson
+- [ ] Igor Terzic
+- [x] Matthew Beale
+- [ ] Edward Faulkner
+- [x] Martin Muñoz
+- [x] Dan Gebhardt
+- [ ] Godfrey Chan
+- [x] Ricardo Mendes
+- [x] Chad Hietala
+- [ ] Katie Gengler
+- [x] Mel Sumner
+
 ## Minutes
 
-**MU-ST**
+### MU-ST
 
 KS: Tobias had some concerns about losing HTML tooling with named blocks.
 
@@ -45,7 +44,7 @@ YK: We are kind of stuck on the scoped package as namespace issue, we need to st
 
 MB: My job for the weekend seems to be to write this up and come up with some ideas.
 
-**array helper**
+### array helper
 
 YK: It would be nice if we didn’t need to reify the array. That the implementation could avoid round-tripping to JS would be good.
 
@@ -53,19 +52,19 @@ RJ: This is an internal helper, so I think we could do that.
 
 Good to FCP!
 
-**copyable deprecate**
+### copyable deprecate
 
 RJ: I love that this author jumped in a did a bunch of detailed work.
 
 Good to FCP!
 
-**each-in**
+### each-in
 
 GC: let’s give this a little more time. Looks good, but I’d like more feedback.
 
 Hold on FCP!
 
-**improve CP ergonomics**
+### improve CP ergonomics
 
 (discussion)
 
@@ -73,7 +72,7 @@ YK: I think we should FCP to close, and say that we expect to change the semanti
 
 FCP to close!
 
-**html-safe**
+### html-safe
 
 (discussion, a lots of pushback about the string `html-safe` being confusing)
 
@@ -105,7 +104,7 @@ YK: I think we could and we could tell people use to some NPM package that shoul
 
 YK and MM will work on this.
 
-**array functions**
+### array functions
 
 RJ: Basically some utils so we can move away for prototype extensions.
 
@@ -155,7 +154,7 @@ KS: I think we need to have a mechanical transform as well.
 
 RJ: I presume MM will update the RFC.
 
-**<AngleBracket />**
+### <AngleBracket />
 
 YK: I’ve realized that the aspects of the angle design I find nice have not been articulated clearly. Obv they would need to be described in the docs, but we are not there yet. We have {{ and expressions, if a thing is callable we call it. Increasingly we allow you to call things not on the filesystem. There are some inconsistencies that are fine.
 
@@ -166,45 +165,3 @@ YK: Some things that seem reasonable ala {{#(foo)}} don’t work, just because o
 YK: I think one thing React does well is to treat html in this context as a component as well. It is a component that has a default implementation and we don’t allow a variable name though. My mental model is the reason people feel overwhelmed (in Ember) is b/c the mental model has gotten more complicated. I was hoping we can use `<Angle />` to reformulate into something simpler.
 
 RJ: I think rationalization is very much required. I agree you put three of us in a room you will have 3-5 mental models of how things work today, and that is from those who know.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-`
-
-
-
-
-

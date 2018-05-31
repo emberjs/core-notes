@@ -138,36 +138,3 @@ YK: RJ is very strongly concerned about that approach (addons earlier or later).
 YK: I think this needs to be gone over later. I think there is a question that should we ever get es5 classes to be aligned with the browser model.
 
 (discussion)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

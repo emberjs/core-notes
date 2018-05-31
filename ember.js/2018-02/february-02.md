@@ -136,19 +136,3 @@ RJ: I though the path was: Make it work without a prototype extension, and after
 TD: RJ’s point is that we don’t need to worry about what people use, we need to build the hot path.
 
 (discussion)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -111,8 +111,8 @@ TD: I think it is actual communication and uses nice buzzwords, so I like it.
 
 RM: I gave only a short notice to Dan to answer the question. But on the discord I asked a few more questions. I’d be happy to get a head start on the following weeks.
 
-### (public)** **Testing Leakage
-****
+### Testing Leakage
+
 RJ: Today there is a problem, async in a test leaks into another test. We did a bunch of work at LI to ensure nothing leaks between tests. This PR brings that functionality to Ember-qunit to be an out of the box feature. I think it is unambiguously a bug fix, however it will clearly cause suites that are passing today to fail. People have tests that only sometimes passed.
 
 YK: So flakey tests would just always fail?
@@ -157,7 +157,7 @@ RJ: We should do some benchmarks.
 
 (discussion)
 
-### (p****ublic****) status of Engines/FastBoot
+### status of Engines/FastBoot
 
 RM: Can we skip this for PWA?
 
@@ -172,7 +172,7 @@ YK: I think there should be an RFC.
 MB: I think manifest is the easiest thing, really.
 
 ### Glimmer VM update
-****
+
 YK: I did a bunch of changes to Glimmer VM and we should update Ember very soon.
 
 TD: Lets do it

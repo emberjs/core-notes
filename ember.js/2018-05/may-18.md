@@ -1,38 +1,37 @@
 # Meeting: Ember Core Team 2018/05/18
 
 ## Agenda
-  Previous week: +Meeting: Ember Core Team 2018/05/11 
 
-
-- (public) Minor MU Update
+- Minor MU Update
   - RJ: Multiple apps for acceptance tests
   - MB: handlebars precompiler has a PR for getting the correct context
-- (public) Upcoming release
-- (public) [ember-engines 1.0 roadmap](https://gist.github.com/MelSumner/17d3cc6166771c880afd9124e79dad95)
-- (public) What’s next action for angle bracket invocation? -EF
+- Upcoming release
+- [ember-engines 1.0 roadmap](https://gist.github.com/MelSumner/17d3cc6166771c880afd9124e79dad95)
+- What’s next action for angle bracket invocation? -EF
 
-Next week: +Meeting: Ember Core Team 2018/05/25  
 
 ## Attendees
-[ ] Yehuda Katz
-[ ] Tom Dale
-[x] Kris Selden
-[ ] Stefan Pennter
-[ ] Leah Silber
-[x] Robert Jackson
-[ ] Igor Terzic
-[x] Matthew Beale
-[x] Edward Faulkner
-[x] Martin Muñoz
-[x] Dan Gebhardt
-[x] Godfrey Chan
-[ ] Ricardo Mendes
-[x] Chad Hietala
-[x] Katie Gengler
-[ ] Melanie Sumner
+
+- [ ] Yehuda Katz
+- [ ] Tom Dale
+- [x] Kris Selden
+- [ ] Stefan Pennter
+- [ ] Leah Silber
+- [x] Robert Jackson
+- [ ] Igor Terzic
+- [x] Matthew Beale
+- [x] Edward Faulkner
+- [x] Martin Muñoz
+- [x] Dan Gebhardt
+- [x] Godfrey Chan
+- [ ] Ricardo Mendes
+- [x] Chad Hietala
+- [x] Katie Gengler
+- [ ] Melanie Sumner
+
 ## Minutes
 
-**Minor MU Update**
+### Minor MU Update
 
 RJ: We got multiple apps working without any changes to ember cli. We should ship a generator that generates the app etc. I think the large ember cli issue today is the change for the feature flags. Ember cli previously had all experiments enabled by default on master, we found that we were trolling ourselves and tests were not running correctly. We re-worked it two weeks ago, not all experiments are off by default. It feels much more similar to Ember’s system. But it means all guides on how to use MU in an app are wrong. But the changes are good, we test with just single experiments on, with all experiments on, and with all experiments off.
 
@@ -44,7 +43,7 @@ EF: Is this a chance to move ember-cli-build into dummy apps? Bc that is where i
 
 RJ: I think it belongs as a similar to the tests files, not in the dummy folder. We need to choose where it goes. We can consider if we want one per app. I agree we need to move it out of the top level. It is confusing, people think ember-cli-build is something apps consume. I think all build commands could take a path to the build file. FWIW I also want to move the index.js out of the root as well, no reason except making the linting/node stuff simpler.
 
-**Releases**
+### Releases
 
 MB: what up, Monday?
 
@@ -66,7 +65,7 @@ RJ: It is deprecated until 3.5 (3.4 is the first LTS)
 
 MS: I have time scheduled for Sunday re: release post.
 
-**ember engines 1.0**
+### ember engines 1.0
 
 RJ: MS and I have been meeting on Fridays to go over roadmap and stuff for ember engines. there is a draft here that is a gist. We intend to publish this the discourse. I’m running it by SP. This includes timing. I don’t like including timing, but it is in there. It:
 
@@ -78,7 +77,7 @@ RJ: MS and I have been meeting on Fridays to go over roadmap and stuff for ember
 
 (discussion re: packager and engines)
 
-**Angle Brackets, what next**
+### Angle Brackets, what next
 
 EF: The RFC work is effectively good.
 
@@ -133,17 +132,3 @@ EF: So GC you think we need to enumerate where there are gaps in iteroperability
 KS: Yes, around the interop between the systems. Or people just need to use tracked all the way down and you can’t interop with non-tracked. Both seem like a big footgun. but the thing is tracked needs to be aware of consumption. otherwise it is just volatile.
 
 GC: I think YK has it on some gist/paper thing.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
