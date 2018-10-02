@@ -1,90 +1,47 @@
-# Learn Team Agenda 2018-05-17
+# Learn Team Agenda 2018-05-10
 
 ## Topics
 
-- Guides launch
-- Guides content improvements - Draft by Chris Garrett
-- EmberCLI
-- A11y Blogpost
-- Google Analytics on API Docs
-- Some bad routing/docs errors ;_;
-- SEO update - 10K new issues this week
+- Guides app launch
+  - Code block issues
+  - Prember issues(https://dashboard.heroku.com/apps/ember-guides-prod/activity/builds/c2b6c9c8-d445-42a0-b1ef-d7ae3b23cf4c)
+  - Prerender vs Caching via fastly.
+- Any Ember Times topics? Please ping me on slack @amyrlam today if so…the issue is looking light https://github.com/emberjs/website/pull/3333 so a bit worried not enough content. (I can’t make the meeting today, taking a class this month.)
+- Ember Website Strike team exists!
 
 ## Action Items
 
-- [ ] pzuraq is going to try spiking some improvements to the quickstart and will report back next week. Maybe in the future we push rolodex/ember contact manager forward
-- [ ] launch the guidessss
-- [ ] Jen & Siva pair up on CLI docs
+- [x] Ember.js Times: call to audit the Guides / Tutorial regarding content (JJ)
 
+^ I think this is done, see https://github.com/emberjs/website/pull/3333
 
 ## Minutes
 
 ### Attendees (Initials: Name @slack-id)
 
-- Todd Jordan (@todd.jordan)
-- Sivakumar Kailasam (@siva)
-- Jen Weber (@jenweber)
-- Chris Garrett (@pzuraq)
-- Chris Manson (@real_ate)
+- MelS: Melanie Sumner @melsumner
+- JW: Jen Weber @jenweber
+- SK: Sivakumar Kailasam @siva
+- JG: Jared Galanis @jaredgalanis
 
 ### Notes
 
-#### Guides Launch
+- JW: Guides app is deprecated (sort of, just a request for no more PR’s)
+- JW: Diff’s aren’t showing in code blocks now - this is the blocker for now
+- JW: Sun is target ship date, but it’s unclear if this is for certain b/c need support in pushing “go”
+- SK: But seem to be some problems with prember too though, and we also need to setup Fastly
+- JW: let’s open issues on guides source if there are things that are outdated
+- MelS: call in the Ember Times for people try to build apps with the guides open as a resource and give feedback as to how it went and where gaps are
+- JW: kind of like a community audit; could also be done quest style as well; possible to do an Airtable?
+- MelS: could provide people with sticker packs who contribute feedback (poss. someone who has recently written blog on react experience)
+- JW: input will likely serve as a roadmap for those looking to contribute to the guides in the future; will reduce management overhead of feedback process
+- MelS: can we build a consistent story across our code samples/snippets?
+- JW: could incorporate this into the styleguide for the Guides
+- JW: will try to capture a couple of critical questions in a project card
+- SK: can stay focused on infra side of these projects; could poss get the Guides shipped w/o prember and w/ fastboot this weekend
+- JW: we should check in with Chris before doing this; also consider that w/o prember should be a temporary thing
+- MelS: re future decisions we are taking a consensus driven approach
+- MelS: there is an ember website strike team channel now; want to limit starting new projects that can be shipped; need to start incentivizing people to ship things too though
+- MelS: should we consider providing a bigger focus section in the Times? Not too many Ember Roadmap blog posts yet
+- JW: maybe remind folks, but it also hasn’t been very long since the request for blog posts; could consider some channels where the request didn’t go out on; perhaps official Ember twitter should be retweeting all blog posts that get written
 
-- CM: I think we are done!  We are good enough to go with what we have rn.  We should get some further consensus, but its looking pretty awesome: https://emberguides.stonecircle.io/
-- CM: had back and forth with siva while I was away to get things merged to fix issues in a dev branch.  I was able to port his changes to the diff rendering for the code examples into the master branch of the guides app, and we didn’t need to ditch prember.  There’s a bit of uncertainty going to fastboot, since things were designed for prember.
-- JW: should we get signoff from siva?
-- CM: I think he implicitly did so by closing his pr
-- JW: lets do just to be sure
-- CM: can we get some more consensus?
-- JW: yeah who?
-- SK: Godfrey to help us on deployment stuff.   We should review the project board to see what’s remaining and pick a date.
-- JW: can we review and knock it out before we go today?
-- SK: sure
-- CM: awesome
-- JW: Plus I think announcing to learn team would be good.
-- CM: jessica did a good job finding bugs, but she tagged them as good first issues, should I work?
-- TJ: I think shipping is a priority.
-(general agreement)
-
-
-#### Guides tutorials improvements
-- JW: Chris G can you share some of your research?
-- CG: sure!:
-
-https://paper.dropbox.com/doc/Ember-Guides-Rewrite-RFC-WIP-zrBMSJyBkX9TG7ws86CWM
-
-- CG: The ember guides as they are throw a lot of concepts very quickly and can be a barrier to learning.  Would like it to be more component centric early on.  Showing parallels between other component frameworks would be good (not necessarily specifics, but following the same learning path).  In the RFC I threw out ideas around a ToC.  Also would like to flip the tutorial to start with a component introduction.
-
-TJ: We've had a vision/goal to host several tutorials, catered to learning levels.
-
-Advanced: Super Rentals (for devs coming from an professional SPA background)
-Intermediate: Rolodex (for devs coming from site development, jquery, etc)
-Beginner/Quick Start (to get core concepts quickly and start playing, regardless of experience level)
-
-Also we've been wanting to split the tutorials away from the guides, so there's infrastructure work to do there.
-
-Any of these efforts could use some help as they are run by people as side projects.
-
-- CG: the quick start sounds like a good place to start on. Let me look at it and see what I can do.
-- JW: If you can make our next meeting ane report back that would be awesome
-
-#### CLI docs
-
-- JW: I may want to focus on the guides for content right now.  I think its a glaring thing content-wise that needs love
-
-#### A11y
-
-- JW: Mel and I are working on an a11y blog post, so look out for that in the near future
-
-#### SEO
-
-- CM: Added an ember-metrics impl for api, just like guides.
-- CM: would also like to do some organization of the different parts of the site
-
-#### Fixes
-
-- JW: I’ve noticed some bugs that seem like they need some fixes soon.  Would like to look into shopping these around.  It may be some work for some of us to shepard
-- SK: sometimes those can scare people away, especially newcomers and api docs.
-- TJ: I can triage any issues and advert them in learn + friends
-https://cl.ly/23083R2K2T1I
