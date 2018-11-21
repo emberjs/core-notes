@@ -69,7 +69,7 @@
   - Native JS classes @Chris G
     - “Decorators is the weird part”
     - Migration codemod for existing users
-    - decorator RFC @NullVox P
+    - decorator RFC @NullVoxPopuli
   - Incremental rendering and rehydration
   - Eliminating the runloop from user-facing API
     - implementation [SHIPPED]
