@@ -4,35 +4,36 @@
 # st-octane on Discord
 
 ## Attendees
-[x] Chris Garrett (CG)
-[ ] Jen Weber (JW)
-[x] Melanie Sumner (MS)
-[x] Preston Sego - NullVoxPopuli (NVP)
-[x] Robert Jackson (RJ)
-[x] Tom Dale (TD)
-[ ] Yehuda Katz (YK)
+
+- [x] Chris Garrett (CG)  
+- [ ] Jen Weber (JW)  
+- [x] Melanie Sumner (MS)  
+- [x] Preston Sego - NullVoxPopuli (NVP)  
+- [x] Robert Jackson (RJ)  
+- [x] Tom Dale (TD)  
+- [ ] Yehuda Katz (YK)  
 
 ## Agenda
-[x] Review last week’s action items (TD)
-[ ] Weekly milestones/deliverables from now to EmberConf (TD)
-  [ ] Ember Octane Timeline
-  [ ] https://github.com/emberjs/rfcs/pull/364
-[ ] Scope realistic feature set based on remaining time (TD)
-[ ] Discuss next steps for Editions RFC (TD)
+- [x] Review last week’s action items (TD)
+- [ ] Weekly milestones/deliverables from now to EmberConf (TD)
+  - [ ] Ember Octane Timeline
+  - [ ] https://github.com/emberjs/rfcs/pull/364
+- [ ] Scope realistic feature set based on remaining time (TD)
+- [ ] Discuss next steps for Editions RFC (TD)
 
 ## Action Items
-[ ] @NullVoxPopuli
-  [ ] Make Octane Blueprint addon
-  [ ] Make decorators RFC
-    [ ] Try implementing partially in @ember/object
-[ ] @Tom D
-  [ ] Make consolidated list / project of Octane tasks
-[ ]  @Robert J
-  [ ] RFC - removing synchronous rendering from tests
-[ ] @Chris G
-  [ ] @tracked RFC
-  [ ] Glimmer Component RFC
-  [ ] Help @NullVoxPopuli with Decorators RFC
+- [ ] @NullVoxPopuli
+  - [ ] Make Octane Blueprint addon
+  - [ ] Make decorators RFC
+    - [ ] Try implementing partially in @ember/object
+- [ ] @Tom D
+  - [ ] Make consolidated list / project of Octane tasks
+- [ ]  @Robert J
+  - [ ] RFC - removing synchronous rendering from tests
+- [ ] @Chris G
+  - [ ] @tracked RFC
+  - [ ] Glimmer Component RFC
+  - [ ] Help @NullVoxPopuli with Decorators RFC
 
 ## Notes
 
