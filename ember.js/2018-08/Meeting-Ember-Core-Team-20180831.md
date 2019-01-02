@@ -18,22 +18,23 @@
   - When do we open the invite?
 
 ## Attendees
-[ ] Yehuda Katz
-[x] Tom Dale
-[ ] Kris Selden
-[ ] Stefan Penner
-[ ] Leah Silber
-[x] Robert Jackson
-[ ] Igor Terzic
-[x] Matthew Beale
-[x] Edward Faulkner
-[x] Martin Muñoz
-[ ] Dan Gebhardt
-[ ] Godfrey Chan
-[ ] Ricardo Mendes
-[ ] Chad Hietala
-[x] Katie Gengler
-[x] Melanie Sumner
+
+- [ ] Yehuda Katz
+- [x] Tom Dale
+- [ ] Kris Selden
+- [ ] Stefan Penner
+- [ ] Leah Silber
+- [x] Robert Jackson
+- [ ] Igor Terzic
+- [x] Matthew Beale
+- [x] Edward Faulkner
+- [x] Martin Muñoz
+- [ ] Dan Gebhardt
+- [ ] Godfrey Chan
+- [ ] Ricardo Mendes
+- [ ] Chad Hietala
+- [x] Katie Gengler
+- [x] Melanie Sumner
 
 ## Minutes
 

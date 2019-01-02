@@ -13,22 +13,23 @@
   - [Deprecate Globals Resolver](https://github.com/emberjs/rfcs/pull/331)
 
 ## Attendees
-[ ] Yehuda Katz
-[x] Tom Dale
-[x] Kris Selden
-[ ] Stefan Penner
-[ ] Leah Silber
-[x] Robert Jackson
-[ ] Igor Terzic
-[x] Matthew Beale
-[x] Edward Faulkner
-[ ] Martin Muñoz
-[x] Dan Gebhardt
-[x] Godfrey Chan
-[ ] Ricardo Mendes
-[x] Chad Hietala
-[x] Katie Gengler
-[x] Melanie Sumner
+
+- [ ] Yehuda Katz
+- [x] Tom Dale
+- [x] Kris Selden
+- [ ] Stefan Penner
+- [ ] Leah Silber
+- [x] Robert Jackson
+- [ ] Igor Terzic
+- [x] Matthew Beale
+- [x] Edward Faulkner
+- [ ] Martin Muñoz
+- [x] Dan Gebhardt
+- [x] Godfrey Chan
+- [ ] Ricardo Mendes
+- [x] Chad Hietala
+- [x] Katie Gengler
+- [x] Melanie Sumner
 
 ## Minutes
 

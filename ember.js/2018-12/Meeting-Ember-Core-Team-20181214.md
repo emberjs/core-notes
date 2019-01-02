@@ -1,6 +1,10 @@
-# Meeting: Ember Core Team 2018/07/27
+# Meeting: Ember Core Team 2018/12/14
+
+## No meeting held due to F2F travel
 
 ## Agenda
+  
+- FCP https://github.com/emberjs/rfcs/pull/408
 
 ## Attendees
 
@@ -10,16 +14,12 @@
 - [ ] Stefan Penner
 - [ ] Leah Silber
 - [ ] Robert Jackson
-- [x] Igor Terzic
+- [ ] Igor Terzic
 - [ ] Matthew Beale
 - [ ] Edward Faulkner
-- [ ] Martin Muñoz
 - [ ] Dan Gebhardt
 - [ ] Godfrey Chan
 - [ ] Ricardo Mendes
 - [ ] Chad Hietala
-- [x] Katie Gengler
+- [ ] Katie Gengler
 - [ ] Melanie Sumner
-
-## Minutes
-

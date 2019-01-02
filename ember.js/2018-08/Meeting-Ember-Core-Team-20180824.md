@@ -10,22 +10,23 @@
 - `this.attrs` guidance
 
 ## Attendees
-[x] Yehuda Katz
-[x] Tom Dale
-[x] Kris Selden
-[ ] Stefan Penner
-[ ] Leah Silber
-[ ] Robert Jackson
-[ ] Igor Terzic
-[x] Matthew Beale
-[x] Edward Faulkner
-[ ] Martin Muñoz
-[x] Dan Gebhardt
-[x] Godfrey Chan
-[ ] Ricardo Mendes
-[x] Chad Hietala
-[x] Katie Gengler
-[x] Melanie Sumner
+
+- [x] Yehuda Katz
+- [x] Tom Dale
+- [x] Kris Selden
+- [ ] Stefan Penner
+- [ ] Leah Silber
+- [ ] Robert Jackson
+- [ ] Igor Terzic
+- [x] Matthew Beale
+- [x] Edward Faulkner
+- [ ] Martin Muñoz
+- [x] Dan Gebhardt
+- [x] Godfrey Chan
+- [ ] Ricardo Mendes
+- [x] Chad Hietala
+- [x] Katie Gengler
+- [x] Melanie Sumner
 
 ## Minutes
 

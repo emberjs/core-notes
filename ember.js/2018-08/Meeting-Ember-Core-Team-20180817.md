@@ -9,22 +9,23 @@
 - Private Ember package naming
 
 ## Attendees
-[x] Yehuda Katz
-[x] Tom Dale
-[x] Kris Selden
-[x] Stefan Penner
-[ ] Leah Silber
-[ ] Robert Jackson
-[x] Igor Terzic
-[ ] Matthew Beale
-[x] Edward Faulkner
-[x] Martin Muñoz
-[x] Dan Gebhardt
-[ ] Godfrey Chan
-[ ] Ricardo Mendes
-[x] Chad Hietala
-[x] Katie Gengler
-[x] Melanie Sumner
+
+- [x] Yehuda Katz
+- [x] Tom Dale
+- [x] Kris Selden
+- [x] Stefan Penner
+- [ ] Leah Silber
+- [ ] Robert Jackson
+- [x] Igor Terzic
+- [ ] Matthew Beale
+- [x] Edward Faulkner
+- [x] Martin Muñoz
+- [x] Dan Gebhardt
+- [ ] Godfrey Chan
+- [ ] Ricardo Mendes
+- [x] Chad Hietala
+- [x] Katie Gengler
+- [x] Melanie Sumner
 
 ## Minutes
 
