@@ -8,18 +8,18 @@
 
 ## Attendees
 
-[ ] Yehuda Katz
-[ ] Tom Dale
-[ ] Kris Selden
-[ ] Stefan Penner
-[ ] Leah Silber
-[ ] Robert Jackson
-[ ] Igor Terzic
-[ ] Matthew Beale
-[ ] Edward Faulkner
-[ ] Dan Gebhardt
-[ ] Godfrey Chan
-[ ] Ricardo Mendes
-[ ] Chad Hietala
-[ ] Katie Gengler
-[ ] Melanie Sumner
+- [ ] Yehuda Katz
+- [ ] Tom Dale
+- [ ] Kris Selden
+- [ ] Stefan Penner
+- [ ] Leah Silber
+- [ ] Robert Jackson
+- [ ] Igor Terzic
+- [ ] Matthew Beale
+- [ ] Edward Faulkner
+- [ ] Dan Gebhardt
+- [ ] Godfrey Chan
+- [ ] Ricardo Mendes
+- [ ] Chad Hietala
+- [ ] Katie Gengler
+- [ ] Melanie Sumner

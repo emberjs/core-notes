@@ -16,20 +16,20 @@
 
 ## Attendees
 
-[x] Yehuda Katz
-[x] Tom Dale
-[x] Kris Selden
-[ ] Stefan Penner
-[x] Robert Jackson
-[ ] Igor Terzic
-[x] Matthew Beale
-[x] Edward Faulkner
-[x] Dan Gebhardt
-[ ] Godfrey Chan
-[x] Ricardo Mendes
-[x] Chad Hietala
-[x] Katie Gengler
-[x] Melanie Sumner
+- [x] Yehuda Katz
+- [x] Tom Dale
+- [x] Kris Selden
+- [ ] Stefan Penner
+- [x] Robert Jackson
+- [ ] Igor Terzic
+- [x] Matthew Beale
+- [x] Edward Faulkner
+- [x] Dan Gebhardt
+- [ ] Godfrey Chan
+- [x] Ricardo Mendes
+- [x] Chad Hietala
+- [x] Katie Gengler
+- [x] Melanie Sumner
 
 ## Action Items
 

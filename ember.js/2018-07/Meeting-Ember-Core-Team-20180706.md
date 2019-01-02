@@ -4,22 +4,23 @@
 - please register for EmberCamp Chicago (embercamp.com)
 
 ## Attendees
-[x] Yehuda Katz
-[ ] Tom Dale
-[ ] Kris Selden
-[ ] Stefan Penner
-[ ] Leah Silber
-[ ] Robert Jackson
-[x] Igor Terzic
-[ ] Matthew Beale
-[x] Edward Faulkner
-[x] Martin Muñoz
-[x] Dan Gebhardt
-[x] Godfrey Chan
-[ ] Ricardo Mendes
-[x] Chad Hietala
-[ ] Katie Gengler
-[x] Melanie Sumner
+
+- [x] Yehuda Katz
+- [ ] Tom Dale
+- [ ] Kris Selden
+- [ ] Stefan Penner
+- [ ] Leah Silber
+- [ ] Robert Jackson
+- [x] Igor Terzic
+- [ ] Matthew Beale
+- [x] Edward Faulkner
+- [x] Martin Muñoz
+- [x] Dan Gebhardt
+- [x] Godfrey Chan
+- [ ] Ricardo Mendes
+- [x] Chad Hietala
+- [ ] Katie Gengler
+- [x] Melanie Sumner
 
 ## Minutes
 
