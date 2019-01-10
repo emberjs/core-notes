@@ -29,7 +29,7 @@
 [ ] SK: Sivakumar Kailasam (@siva)
 [x] AL: Amy Lam (@amyrlam)
 [ ] TL: Terence Lee (@hone)
-[x] CM: Chris Mason (@real_ate)
+[x] CM: Chris Manson (@real_ate)
 [x] RM: Ricardo Mendes (@locks)
 [ ] LS: Leah Silber (@wifelette)
 [x] MS: Melanie Sumner (@melsumner)
