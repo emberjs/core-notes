@@ -4,7 +4,7 @@
 
 - Determine note taker - JW
 - Clarifying Question: Should `willTransition` and `didTransition` events on the Route be deprecated? [#17585](https://github.com/emberjs/ember.js/pull/17585)
-- Clarifying Question: What is the actual API for `{{in-element}}`([RFC](https://github.com/emberjs/rfcs/blob/master/text/0287-promote-in-element-to-public-api.md)? Does it have `nextSibling` like the private thing or no?
+- Clarifying Question: What is the actual API for `{{in-element}}`[RFC](https://github.com/emberjs/rfcs/blob/master/text/0287-promote-in-element-to-public-api.md)? Does it have `nextSibling` like the private thing or no?
 - RFC "How we teach this" (CH)
 - RFC Tracking quick overview/reminder (KG)
 - Confirming `class MyComponent extends Ember.Component {}` (RM)
