@@ -34,7 +34,7 @@ Attendees (Initials: Name @Discord)
 - [x] RT: Ryan Tablada
 - [x] DM: Dan Monroe
 - [x] JD: James Davis (jamescdavis)
-
+- [x] KL: Kenneth Larsen (kennethlarsen)
 ## Notes
 
 ### RM: markdown links inconsistencies
