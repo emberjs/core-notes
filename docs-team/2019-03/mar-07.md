@@ -37,7 +37,7 @@ Facilitator: AL
 - [x] DM: Dan Monroe (danmonroe)
 - [x] CG: Chris Garrett
 - [x] J: Joseph
-- [x] EF: Eli Flanigan
+- [x] EF: Eli Flanagan (efx)
 - [x] KL: Kenneth Larsen
 - [x] JD: James Davis (jamescdavis)
 
