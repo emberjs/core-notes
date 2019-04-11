@@ -26,7 +26,7 @@ Facilitator: Jen
     - [glimmer components](https://github.com/emberjs/rfc-tracking/issues/2) - needs to be looked at
     - [Deprecate Component#isVisible](https://github.com/emberjs/rfc-tracking/issues/22) - @Jessica J 👀
     - [Record Links & Meta](https://github.com/emberjs/rfc-tracking/issues/11) - @Chris M 👀 
-    - [Tracking for Deprecate Computed Overridability and](https://github.com/emberjs/rfc-tracking/issues/18) `[.readOnly()](https://github.com/emberjs/rfc-tracking/issues/18)` - @Robert W 👀 
+    - [Tracking for Deprecate Computed Overridability and](https://github.com/emberjs/rfc-tracking/issues/18) [`.readOnly()`](https://github.com/emberjs/rfc-tracking/issues/18) - @Robert W 👀 
 
 ## Action Items 
 - [x] The facilitator adds today’s public notes to the Core Meeting Notes repo ([instructions](https://github.com/ember-learn/handbook/blob/master/team-leadership.md#responsibilities-would-include))
