@@ -29,33 +29,33 @@ Facilitator: Jen
     - [Tracking for Deprecate Computed Overridability and](https://github.com/emberjs/rfc-tracking/issues/18) `[.readOnly()](https://github.com/emberjs/rfc-tracking/issues/18)` - @Robert W 👀 
 
 ## Action Items 
-[x] The facilitator adds today’s public notes to the Core Meeting Notes repo ([instructions](https://github.com/ember-learn/handbook/blob/master/team-leadership.md#responsibilities-would-include))
-[ ] Take a look at the documentation for deployment in the handbook and make sure it’s up to date @Chris M 
-[ ] Put together a plan for video content production. CM has started talking to people like Gavin for help in the future. He has done a lot of great videos and is very motivated to help.   - @Melanie S will take this to the marketing team
-[ ] CM JJ: Chat about “submit your own whitepaper” style of project showcase data - Question based.
-[x] Talk to Robert about Ember CLI Netlify with Addons @Chris M  Shipped!
-[ ] Core team members - add tasks from f2f to the Airtable before the next meeting . Things that have a sensible grouping go in Initiatives, and uncategorized tasks go in Tasks/Grid View
-[ ] Core team members - sign up for “Product Champions” in Airtable. Goal of 2 people per project. Where we don’t have that, we discuss how to change it
-[ ] Next week - we are going to spend time prioritizing our next wave of projects in Airtable
+- [x] The facilitator adds today’s public notes to the Core Meeting Notes repo ([instructions](https://github.com/ember-learn/handbook/blob/master/team-leadership.md#responsibilities-would-include))
+- [ ] Take a look at the documentation for deployment in the handbook and make sure it’s up to date @Chris M 
+- [ ] Put together a plan for video content production. CM has started talking to people like Gavin for help in the future. He has done a lot of great videos and is very motivated to help.   - @Melanie S will take this to the marketing team
+- [ ] CM JJ: Chat about “submit your own whitepaper” style of project showcase data - Question based.
+- [x] Talk to Robert about Ember CLI Netlify with Addons @Chris M  Shipped!
+- [ ] Core team members - add tasks from f2f to the Airtable before the next meeting . Things that have a sensible grouping go in Initiatives, and uncategorized tasks go in Tasks/Grid View
+- [ ] Core team members - sign up for “Product Champions” in Airtable. Goal of 2 people per project. Where we don’t have that, we discuss how to change it
+- [ ] Next week - we are going to spend time prioritizing our next wave of projects in Airtable
 
 ## Minutes
 
 ### Attendees (Initials: Name @Discord)
-[ ] DB: David Baker (acorncom)
-[x] TJ: Todd Jordan (todd.jordan)
-[x] JJ: Jessica Jordan (jessica)
-[ ] SK: Siva Kailasam (Siva)
-[ ] AL: Amy Lam (amyrlam)
-[ ] TL: Terence Lee (hone)
-[x] CM: Chris Manson (Chris Manson)
-[x] RM: Ricardo Mendes (locks)
-[ ] LS: Leah Silber (wifelette)
-[x] MS: Melanie Sumner (melsumner)
-[x] JW: Jen Weber (jenweber)
-[x] KL: Kenneth Larsen (kennethlarsen)
-[x] RW: Robert Wagner (rwwagner90)
-[x] RJ: Robert Jackson (rwjblue)
-[x] JG: Jared Galanis(jared)
+- [ ] DB: David Baker (acorncom)
+- [x] TJ: Todd Jordan (todd.jordan)
+- [x] JJ: Jessica Jordan (jessica)
+- [ ] SK: Siva Kailasam (Siva)
+- [ ] AL: Amy Lam (amyrlam)
+- [ ] TL: Terence Lee (hone)
+- [x] CM: Chris Manson (Chris Manson)
+- [x] RM: Ricardo Mendes (locks)
+- [ ] LS: Leah Silber (wifelette)
+- [x] MS: Melanie Sumner (melsumner)
+- [x] JW: Jen Weber (jenweber)
+- [x] KL: Kenneth Larsen (kennethlarsen)
+- [x] RW: Robert Wagner (rwwagner90)
+- [x] RJ: Robert Jackson (rwjblue)
+- [x] JG: Jared Galanis(jared)
 
 ### Notes
 
