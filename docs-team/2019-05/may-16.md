@@ -68,7 +68,7 @@ JW: I just added a PR for updating our handbook according to the updates we were
 ### Ember API Docs MR from a Workshop Contributor
 CM: Can someone have a look to see how this works and if it’s alright?
 
-SK: Unfortunately tests are failing on master so we can’t review or merge anything right now, but someone can take a look once the test suite is fixed
+SK: Unfortunately tests are failing on master so we can’t review or merge anything right now. I’ll try to get that sorted out soon & work with the contributor to land that PR. 
 
 ### Github Project Initiatives
 CM: Just wanted to check in with you, and especially TJ and JJ if they’re also fine to move our project triaging from Airtable to Github projects. We already had growing consensus on the move from our discussion on last learning team meetings
