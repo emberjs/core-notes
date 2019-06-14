@@ -23,7 +23,6 @@
     - (**1min**) https://github.com/emberjs/ember.js/issues/15635
     - (**1min**) https://github.com/emberjs/ember.js/issues/14747
 - (public) (10 min) [Async Observers](https://github.com/emberjs/rfcs/pull/494)
-- (public) (5 min) [F2F Agenda](https://paper.dropbox.com/doc/Ember-Framework-Team-Q2-2019--AdQ6nobSji2ngHkyG~Al2pDWAg-h7GabYg80iKApgDNZ55kt)
 - (public) (5mins) built-in helpers RFC
 
 
