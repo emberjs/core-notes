@@ -48,8 +48,6 @@
 
 Note taker: DG
 
-### Notes
-
 ### F2F Meeting Suggestion
 
 EF: After talking with a bunch of folks, I'd like to suggest that the F2F meetings have a "chair" to keep things moving along smoothly.
