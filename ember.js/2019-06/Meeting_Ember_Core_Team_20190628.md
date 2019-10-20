@@ -2,8 +2,6 @@
 
 ## Agenda
 
-- (public) (**2 min)** Determine note taker
-- (public) (**2 min**) Determine person to upload notes
 - (public) (**5 min**) [Pre-RFC: Deprecate implicit injections](https://github.com/emberjs/rfcs/issues/508) (RJ)
 - (public) (**10 min**) How to deprecate default model/default store? (RJ)
 - (public) (**2 m\*\***in\*\*) Notion? (CG)
@@ -35,10 +33,6 @@
 [x] Melanie Sumner
 [x] Jen Weber
 [x] Chris Garrett
-
-## Action Items
-
-[ ]
 
 ## Minutes
 

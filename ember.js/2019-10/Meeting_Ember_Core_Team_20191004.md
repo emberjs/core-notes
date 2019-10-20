@@ -1,9 +1,8 @@
-# Meeting: Ember Core Team - Oct 4, 2019
+# Meeting: Ember Core Team 2019/10/04
 
 ## Agenda
 
 - Determine note taker (JW)
-- Determine person to upload notes (JW)
 - Octane links
 - Octane blueprints location
 - Including ember-auto-import
@@ -55,7 +54,7 @@ RJ: Possible changes to blueprints should be disconnected from Octane so we can 
 
 YK: We can put the list of package versions that go together in the release blog post (which versions of Ember source, data, etc)
 
-Conclusion - release Octane blueprints how we always have, and changes like putting blueprints in their own addon should go through an RFC process.  The release blog post should have a list of dependencies.
+Conclusion - release Octane blueprints how we always have, and changes like putting blueprints in their own addon should go through an RFC process. The release blog post should have a list of dependencies.
 
 ### Including ember-auto-import in Octane
 

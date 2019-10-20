@@ -1,9 +1,7 @@
-# Meeting: Ember Core Team - Aug 16, 2019 
+# Meeting: Ember Core Team 2019/08/16
 
 ## Agenda
 
-- (**2 min)** Determine note taker
-- (**2 min**) Determine person to upload notes
 - (20 min) template generation (JW)
     - [https://gist.github.com/chancancode/120ed93b2aa8b6df781cf69bd73d6cb9](https://gist.github.com/chancancode/120ed93b2aa8b6df781cf69bd73d6cb9) (GC)
         - "Champion's recommendation" (GC's): we do 1 (?), 2, 3 but not 4

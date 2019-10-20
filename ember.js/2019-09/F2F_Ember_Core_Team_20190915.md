@@ -1,4 +1,4 @@
-# F2F Meeting: Ember Core Team - Sep 15, 2019
+# F2F Meeting: Ember Core Team 2019/09/15
 
 ## Agenda
 

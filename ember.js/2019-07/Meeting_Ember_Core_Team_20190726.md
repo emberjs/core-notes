@@ -1,9 +1,7 @@
-# Meeting: Ember Core Team - Jul 26, 2019
+# Meeting: Ember Core Team 2019/07/26
 
 ## Agenda
 
-- (public) (**2 min)** Determine note taker
-- (public) (**2 min**) Determine person to upload notes
 - (public) **(2 min)** Remind Rob to make/fill out the tracking issue for mouseLeave RFC
 - (public) (**10 min**) `@tracked` (CG)
 - (public) RFCs

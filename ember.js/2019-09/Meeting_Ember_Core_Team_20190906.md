@@ -1,9 +1,7 @@
-# Meeting: Ember Core Team - Sep 6, 2019
+# Meeting: Ember Core Team 2019/09/06
 
 ## Agenda
 
-- (**2 min)** Determine note taker
-- (**2 min**) Determine person to upload notes
 - (**5 min**) Volunteering myself to "chair" the F2F meeting — meaning I focus 100% on keeping the meeting productive and don't try to simultaneously participate in topic discussion. (EF)
 - EMBER_VERSION=octane ? octanify? (GC?)
 - RFCs
