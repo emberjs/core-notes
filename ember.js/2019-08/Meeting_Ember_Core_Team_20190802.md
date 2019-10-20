@@ -1,4 +1,4 @@
-# Meeting: Ember Core Team - Aug 02, 2019 
+# Meeting: Ember Core Team 2019/08/02
 
 ## Agenda
 

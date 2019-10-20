@@ -1,9 +1,7 @@
-# Meeting: Ember Core Team - Jul 12, 2019
+# Meeting: Ember Core Team 2019/07/12
 
 ## Agenda
 
-- (public) (**2 min)** Determine note taker
-- (public) (**2 min**) Determine person to upload notes
 - (public) Glimmer-VM Integration When? (CH)
   - Named Blocks
   - in-element (Blocker for Impl on RFCs)

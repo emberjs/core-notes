@@ -1,9 +1,8 @@
-# Meeting: Ember Core Team - Jul 05, 2019
+# Meeting: Ember Core Team 2019/07/05
 
 ## Agenda
 
 - (public) (**2 min)** Determine note taker - JW/MB
-- (public) (**2 min**) Determine person to upload notes
 - (public) RFCs
   - → FCP
     - [@classic decorator](https://github.com/emberjs/rfcs/pull/468)
@@ -41,7 +40,6 @@
 ## Action Items
 
 - [ ] Fix generators/Babel bug in latest Ember
-- [ ]
 
 ## Minutes
 

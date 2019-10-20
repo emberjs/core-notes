@@ -1,9 +1,8 @@
-# Meeting: Ember Core Team - Jul 19, 2019
+# Meeting: Ember Core Team 2019/07/19
 
 ## Agenda
 
 - (public) (**2 min)** Determine note taker (MB)
-- (public) (**2 min**) Determine person to upload notes (MB)
 - (public) (10 min) Are we on track for Octane? (Upcoming release weeks: 3.12 is Aug 5th, 3.13 is Sept 16th, 3.14 is Oct. 28) (JW)
 - (public) (10 min) Upcoming F2F, travel etc. Sept 14-15 in Chicago pre-EmberCamp? (MB)
 - (public) RFCs

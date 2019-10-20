@@ -1,4 +1,4 @@
-# Meeting: Ember Core Team - Aug 23, 2019 
+# Meeting: Ember Core Team 2019/08/23
 
 ## Agenda
 
@@ -31,10 +31,6 @@
 - [x]  Melanie Sumner
 - [x]  Jen Weber
 - [x]  Chris Garrett
-
-## Action Items
-
-- [ ]  To-do...
 
 ## Minutes
 

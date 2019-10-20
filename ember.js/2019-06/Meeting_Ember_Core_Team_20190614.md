@@ -2,8 +2,6 @@
 
 ## Agenda
 
-- (public) (**2 min)** Determine note taker
-- (public) (**2 min**) Determine person to upload notes
 - (public) (**20 min**) API docs strategy (JW)
   - Plan for integrating Glimmer & Test Helpers
   - How we want to present decorators in Ember.js API docs
