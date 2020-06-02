@@ -15,6 +15,8 @@ Add yourself to the list if you attend and check the box!
 - [ ] Jen Weber (JW)
 - [ ] Kenneth Larsen (KL)
 - [ ] Robert Wagner (RW)
+- [ ] Jared Galanis (JG)
+- [ ] Isaac Lee (IL)
 
 ### Guests
 
