@@ -7,16 +7,16 @@ Facilitator & Note Taker:
 Add yourself to the list if you attend and check the box!
 
 ### Core Team
-- [ ] Chris Manson (CM)
 - [ ] Amy Lam (AL)
-- [ ] Ricard Mendes (RM)
-- [ ] Jessica Jordan (JJ)
-- [ ] Melanie Sumner (MS)
-- [ ] Jen Weber (JW)
-- [ ] Kenneth Larsen (KL)
-- [ ] Robert Wagner (RW)
-- [ ] Jared Galanis (JG)
+- [ ] Chris Manson (CM)
 - [ ] Isaac Lee (IL)
+- [ ] Jared Galanis (JG)
+- [ ] Jen Weber (JW)
+- [ ] Jessica Jordan (JJ)
+- [ ] Kenneth Larsen (KL)
+- [ ] Melanie Sumner (MS)
+- [ ] Ricard Mendes (RM)
+- [ ] Robert Wagner (RW)
 
 ### Guests
 - [] Your name here (INITIALS)
