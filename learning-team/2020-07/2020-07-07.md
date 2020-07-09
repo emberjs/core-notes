@@ -15,7 +15,7 @@ Add yourself to the list if you attend and check the box!
 - [ ] Jessica Jordan (JJ)
 - [ ] Kenneth Larsen (KL)
 - [ ] Melanie Sumner (MS)
-- [ ] Ricard Mendes (RM)
+- [ ] Ricardo Mendes (RM)
 - [ ] Robert Wagner (RW)
 
 ### Guests
