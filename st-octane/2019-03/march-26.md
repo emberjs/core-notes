@@ -7,33 +7,34 @@ BlueJeans: https://bluejeans.com/236115101
 WebRTC: https://bluejeans.com/236115101/webrtc
 #st-octane on Discord
 
-Attendees
-[ ] Chris Garrett (CG)
-[ ] Jen Weber (JW)
-[ ] Melanie Sumner (MS)
-[ ] NullVoxPopuli (NVP)
-[ ] Robert Jackson (RJ)
-[ ] Tom Dale (TD)
-[ ] Stefan Penner (SP)
-[ ] Izel Nakri (IN)
-[ ] Yehuda Katz (YK)
-[ ] Ricardo Mendes (RM)
-Agenda
+## Attendees
+
+- [ ] Chris Garrett (CG)
+- [ ] Jen Weber (JW)
+- [ ] Melanie Sumner (MS)
+- [ ] NullVoxPopuli (NVP)
+- [ ] Robert Jackson (RJ)
+- [ ] Tom Dale (TD)
+- [ ] Stefan Penner (SP)
+- [ ] Izel Nakri (IN)
+- [ ] Yehuda Katz (YK)
+- [ ] Ricardo Mendes (RM)
+
+## Agenda
 
 Last week’s agenda: Link
 
-
-[ ] Review last week’s action items
-[ ] Agenda item 1 (TD)
-[ ] Next steps for the Octane Guides
-[ ] How are we gathering Octane preview feedback?
-[ ] What remains for Octane to be feature complete? Or turned on since they are behind feature flags
-[ ] Quick retro
+- [ ] Review last week’s action items
+- [ ] Agenda item 1 (TD)
+- [ ] Next steps for the Octane Guides
+- [ ] How are we gathering Octane preview feedback?
+- [ ] What remains for Octane to be feature complete? Or turned on since they are behind feature flags
+- [ ] Quick retro
 Action Items
-[ ] Ember Data docs
+- [ ] Ember Data docs
 
 
-Notes
+## Notes
 
 Conversation Topic (Usually an Agenda Item)
 
