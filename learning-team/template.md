@@ -27,7 +27,7 @@ Add yourself to the list if you attend and check the box!
 See: [Action items board](https://github.com/orgs/ember-learn/projects/47)
 
 ### Review Initiatives board (every other week)
-See: [Initiatives board](https://github.com/orgs/ember-learn/projects/19)
+See: [Initiatives board](https://github.com/orgs/ember-learn/projects/33)
 
 ### Review PR queue
 See: [tracking sheet](https://docs.google.com/spreadsheets/d/1sPyN9z9wZMpTNwqCfa6R9QSPZkIW4iQd-H4gZC7ILLk/edit#gid=2035777454)
