@@ -13,7 +13,6 @@ Add yourself to the list if you attend and check the box!
 - [ ] Isaac Lee (IL)
 - [ ] Jared Galanis (JG)
 - [ ] Jen Weber (JW)
-- [ ] Jessica Jordan (JJ)
 - [ ] Kenneth Larsen (KL)
 - [ ] Ricardo Mendes (RM)
 - [ ] Robert Wagner (RW)
@@ -30,7 +29,7 @@ See: [Action items board](https://github.com/orgs/ember-learn/projects/47)
 
 ### Review Initiatives board (every other week)
 
-See: [Initiatives board](https://github.com/orgs/ember-learn/projects/33)
+See: [Initiatives board](https://github.com/orgs/ember-learn/projects/33) or [2021 initiatives board](https://github.com/orgs/ember-learn/projects/51)
 
 ### Review PR queue
 
