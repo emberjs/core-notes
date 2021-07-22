@@ -13,7 +13,6 @@ Add yourself to the list if you attend and check the box!
 - [ ] Isaac Lee (IL)
 - [ ] Jared Galanis (JG)
 - [ ] Jen Weber (JW)
-- [ ] Kenneth Larsen (KL)
 - [ ] Ricardo Mendes (RM)
 - [ ] Robert Wagner (RW)
 
