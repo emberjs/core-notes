@@ -22,10 +22,6 @@ Add yourself to the list if you attend and check the box!
 
 ## Weekly review
 
-### Review action items (weekly)
-
-See: [Action items board](https://github.com/orgs/ember-learn/projects/47)
-
 ### Review Initiatives board (every other week)
 
 See: [Initiatives board](https://github.com/orgs/ember-learn/projects/33) or [2021 initiatives board](https://github.com/orgs/ember-learn/projects/51)
