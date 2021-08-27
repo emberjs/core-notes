@@ -32,12 +32,14 @@ See: [tracking sheet](https://docs.google.com/spreadsheets/d/1sPyN9z9wZMpTNwqCfa
 
 ## Topics
 
+### Strategy for usage of deprecated APIs in content (RM, 15m)
+https://github.com/emberjs/ember.js/issues/19729 was brought to our attention recently.
+Because route/controller transition methods have been deprecated, the API documentation is not visible by default and the links seem to go nowhere.
+Although it was clearly a lapse that the documentation was not updated accordingly, some questions came to mind:
+- Do we want to reevaluate not showing deprecated code by default?
+- Do we want to adjust how the approach prose changes for staged RFCs? Should we link to API documentation with the deprecated query param enabled?
+
 <!-- If you would like to add a topic to the agenda please add a suggestion to the PR using the following format: -->
-<!-- ### Your topic (INITIALS, expected duration in minutes) -->
-<!-- ### Your topic (INITIALS, expected duration in minutes) -->
-<!-- ### Your topic (INITIALS, expected duration in minutes) -->
-<!-- ### Your topic (INITIALS, expected duration in minutes) -->
-<!-- ### Your topic (INITIALS, expected duration in minutes) -->
 <!-- ### Your topic (INITIALS, expected duration in minutes) -->
 
 ## Ember Times suggestions
