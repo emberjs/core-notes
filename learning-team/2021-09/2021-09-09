@@ -1,0 +1,121 @@
+# September 9, 2021
+
+Facilitator: RM 
+Note Taker: JW
+
+## Attendees
+
+Add yourself to the list if you attend and check the box!
+
+### Core Team
+
+- [x] Amy Lam (AL)
+- [x] Chris Manson (CM)
+- [ ] Isaac Lee (IL)
+- [x] Jared Galanis (JG)
+- [x] Jen Weber (JW)
+- [x] Ricardo Mendes (RM)
+- [ ] Robert Wagner (RW)
+
+### Guests
+
+- [] Your name here (INITIALS)
+
+## Weekly review
+
+### Review Initiatives board (every other week)
+
+See: [Initiatives board](https://github.com/orgs/ember-learn/projects/51)
+
+The website redesign is moving along! Some new issues have been closed.
+
+See topic below for the releases tool updates.
+
+### Review PR queue
+
+See: [tracking sheet](https://docs.google.com/spreadsheets/d/1sPyN9z9wZMpTNwqCfa6R9QSPZkIW4iQd-H4gZC7ILLk/edit#gid=2035777454)
+
+This PR needs some expert investigation, if anyone has time: https://github.com/ember-learn/ember-website/pull/863
+
+Please nudge framework core to review `[DOC beta]` PRs.
+
+## Topics
+
+### What should these "since" versions be in the deprecation guides? (JW 10 mins)
+
+See https://github.com/ember-learn/deprecation-app/pull/954
+
+For next week - the deprecation template says that the deprecation guide is required,
+but we should review it together to make it as clear as possible.
+
+Conclusion:
+We fixed some release versions and will merge with a CTA to help write entries.
+We will also follow up with RFC authors/contributors to ask for help.
+
+### tool-new-release improvements (RM, 10min)
+
+Status updates on this project, for context sharing:
+
+RM: I'm actively working on https://github.com/ember-learn/tool-new-release and want
+to give some updates.
+
+RM: suggestions welcome for a rename of this tool. I have been working on it
+for a little bit and have been using it for releases.
+With some debugging, we can see that the problem comes from the scripts.
+The tool clones the repos and runs the scripts that are in each repo.
+I'm going to work on it a bit more - I have some ideas that would be useful.
+The end goal is for anyone to use the tool, and even make it part of
+an automated process. I also want it to have good messages/diagnostics.
+
+RM: I am going to start putting deployment logic in the tool, in Rust.
+The reason is that I don't like writing bash, any time you have to do something
+complex. bash also does not run on windows. node is difficult too.
+Rust has a good JS interpreter we can use.
+
+RM: There were some concerns about people not knowing Rust.
+You don't have to deal with types to understand this tool.
+One change I'm not sure about is the API docs, since there's
+a project by JW to use GitHub as a back end.
+If you try to run the API docs compiler in heroku, it runs out of memory.
+
+JW: The new API docs generation will build one version at a time, but
+this tool shouldn't use the new scripts yet. They are still in flux.
+
+RM: The scripts will still be in the repos, so hopefully the codebase
+itself will be simple enough for anyone to pick up even though it's in Rust.
+
+JW: Is there anything you need help with?
+
+RM: Not at the moment. I am also going to bundle the tool as a zip to
+reduce the need to chmod the binaries. I don't think the Rust code
+is more complex than the bash.
+
+CM: As a passing thought - the script for the guides should be handled
+by guidemaker in the future. Technically guidemaker should be useable by everyone.
+So deleting things in that script is a hack. We should minimize what the
+script needs to do. 
+
+RM: Sounds good! I have also been thinking of ways to automate the process.
+The release blog post is in the tool, and it's just a reminder at this point.
+We could make an automated GitHub action that creates a new blog post.
+
+JW: This reminds me that we need to make the 4.0 blog post draft
+
+RM: Mixonic is working on this, so talk to him
+
+JW: good idea, thank you!
+
+### Design for esnote feedback
+
+https://github.com/ember-learn/ember-styleguide/issues/307
+
+Looking good! We like option #1. Ship it and then see how it looks in context
+in the tracking branch/preview.
+
+## Ember Times suggestions
+
+Add writeup ideas / call for contributors / suggestions to [the latest PR](https://github.com/ember-learn/ember-blog/pulls?q=is%3Aopen+is%3Apr+label%3A%22%F0%9F%97%9E+embertimes%22%20or%20#support-ember-times) or [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on Discord.
+
+## Any Questions?
+
+Questions, comments or concerns? Submit a comment or PR for this set of notes.
