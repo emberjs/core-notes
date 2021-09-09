@@ -32,6 +32,10 @@ See: [tracking sheet](https://docs.google.com/spreadsheets/d/1sPyN9z9wZMpTNwqCfa
 
 ## Topics
 
+### What should these "since" versions be in the deprecation guides? (JW 10 mins)
+
+See https://github.com/ember-learn/deprecation-app/pull/954
+
 <!-- If you would like to add a topic to the agenda please add a suggestion to the PR using the following format: -->
 <!-- ### Your topic (INITIALS, expected duration in minutes) -->
 <!-- ### Your topic (INITIALS, expected duration in minutes) -->
