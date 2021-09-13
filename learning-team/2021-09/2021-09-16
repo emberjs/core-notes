@@ -32,6 +32,12 @@ See: [tracking sheet](https://docs.google.com/spreadsheets/d/1sPyN9z9wZMpTNwqCfa
 
 ## Topics
 
+### GitHub Issues Beta
+We just got access to the new GitHub Issues Beta. Are there ideas we could try to improve our handling of issues?
+For example:
+- Replace our tracking sheet with a project + automation
+- Create "help wanted" or "good first issue" boards for our org
+
 <!-- If you would like to add a topic to the agenda please add a suggestion to the PR using the following format: -->
 <!-- ### Your topic (INITIALS, expected duration in minutes) -->
 <!-- ### Your topic (INITIALS, expected duration in minutes) -->
