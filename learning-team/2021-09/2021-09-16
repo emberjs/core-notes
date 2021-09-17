@@ -1,6 +1,6 @@
 # Month Day, Year
 
-Facilitator & Note Taker: 
+Facilitator & Note Taker: RM
 
 ## Attendees
 
@@ -9,11 +9,11 @@ Add yourself to the list if you attend and check the box!
 ### Core Team
 
 - [ ] Amy Lam (AL)
-- [ ] Chris Manson (CM)
+- [x] Chris Manson (CM)
 - [ ] Isaac Lee (IL)
-- [ ] Jared Galanis (JG)
-- [ ] Jen Weber (JW)
-- [ ] Ricardo Mendes (RM)
+- [x] Jared Galanis (JG)
+- [x] Jen Weber (JW)
+- [x] Ricardo Mendes (RM)
 - [ ] Robert Wagner (RW)
 
 ### Guests
@@ -30,6 +30,13 @@ See: [Initiatives board](https://github.com/orgs/ember-learn/projects/51)
 
 See: [tracking sheet](https://docs.google.com/spreadsheets/d/1sPyN9z9wZMpTNwqCfa6R9QSPZkIW4iQd-H4gZC7ILLk/edit#gid=2035777454)
 
+Tracking sheet is currently broken.
+
+#### https://github.com/ember-learn/cli-guides/pull/235
+
+JW: I didn't get a reply
+RM: I'll try it on my Windows machine
+
 ## Topics
 
 ### GitHub Issues Beta
@@ -38,21 +45,43 @@ For example:
 - Replace our tracking sheet with a project + automation
 - Create "help wanted" or "good first issue" boards for our org
 
+RM: I added this topic more to bring awareness and so we think about how we can improve and help our management
+CM: 🙆‍♂️
+
 ### Ember 4.0 (all, 10 mins)
 
 What do we still need to do?
 
+JW: what I think needs to happen:
+- fill out deprecation stubs
+- PR to add deprecation links into ember source code
+- we have to be involved in the blog post
+- we've done some QA of the guides, so we should be ok
+- we need to finish QA on the API docs
+- what is our communication strategy?
+
+JW: I started going over API docs
+RM: send me the PRs so I can help
+
+JW: going back to communication strategy
+JW: our main focus is editions but the JS community pays attention to major releases
+JW: Communications strategy:
+- Twitter official account
+- dev.to (will automatically syndicate)
+- reddit
+- hackernews?
+- JavaScript weekly, FrontEnd weekly
+- Ask people to blog
+- A followup blog post with vision & inspirational stuff
+- podcasts
+
 ### Upcoming cookbook RFC (JW, 10 mins)
 
+JW: I've been hearing from users that they'd like more complete examples
+JW: we've talked about having more tutorials and include examples that way but it hasn't happened yet
 
-
-<!-- If you would like to add a topic to the agenda please add a suggestion to the PR using the following format: -->
-<!-- ### Your topic (INITIALS, expected duration in minutes) -->
-<!-- ### Your topic (INITIALS, expected duration in minutes) -->
-<!-- ### Your topic (INITIALS, expected duration in minutes) -->
-<!-- ### Your topic (INITIALS, expected duration in minutes) -->
-<!-- ### Your topic (INITIALS, expected duration in minutes) -->
-<!-- ### Your topic (INITIALS, expected duration in minutes) -->
+- ember-learn org
+- not versioned with the guides
 
 ## Ember Times suggestions
 
