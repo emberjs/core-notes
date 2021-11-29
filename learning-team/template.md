@@ -22,14 +22,6 @@ Add yourself to the list if you attend and check the box!
 
 ## Weekly review
 
-### Review Initiatives board (every other week)
-
-See: [Initiatives board](https://github.com/orgs/ember-learn/projects/51)
-
-### Review PR queue
-
-See: [tracking sheet](https://docs.google.com/spreadsheets/d/1sPyN9z9wZMpTNwqCfa6R9QSPZkIW4iQd-H4gZC7ILLk/edit#gid=2035777454)
-
 ## Topics
 
 <!-- If you would like to add a topic to the agenda please add a suggestion to the PR using the following format: -->
