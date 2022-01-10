@@ -24,11 +24,6 @@ Add yourself to the list if you attend and check the box!
 
 <!-- If you would like to add a topic to the agenda please add a suggestion to the PR using the following format: -->
 <!-- ### Your topic (INITIALS, expected duration in minutes) -->
-<!-- ### Your topic (INITIALS, expected duration in minutes) -->
-<!-- ### Your topic (INITIALS, expected duration in minutes) -->
-<!-- ### Your topic (INITIALS, expected duration in minutes) -->
-<!-- ### Your topic (INITIALS, expected duration in minutes) -->
-<!-- ### Your topic (INITIALS, expected duration in minutes) -->
 
 ## Ember Times suggestions
 
