@@ -24,6 +24,10 @@ Add yourself to the list if you attend and check the box!
 
 [Open pull requests](https://help-wanted.emberjs.com/pull-requests)
 
+[RFC review app](https://rfcs.emberjs.com/)
+
+[RFC PR Queue](https://github.com/emberjs/rfcs/pulls)
+
 ## Topics
 
 <!-- If you would like to add a topic to the agenda please add a suggestion to the PR using the following format: -->
