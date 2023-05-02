@@ -1,6 +1,7 @@
 # YYYY-MM-DD
 
-Facilitator & Note Taker: 
+Note Taker: 
+Time Keeper: 
 
 ## Attendees
 
