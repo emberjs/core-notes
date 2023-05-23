@@ -9,6 +9,9 @@ Add yourself to the list if you attend and check the box!
 
 - [ ] Ed Falkner (EF)
 - [ ] Chris Manson (CM)
+- [ ] Aaron Chambers (AC)
+- [ ] Alex (A)
+- [ ] Preston Sego (PS)
 - [ ] Your name here (INITIALS)
 
 ## Topics
