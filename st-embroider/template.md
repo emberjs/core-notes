@@ -14,6 +14,7 @@ Add yourself to the list if you attend and check the box!
 - [ ] Preston Sego (PS)
 - [ ] Simon Ihmig (SI)
 - [ ] Katie Gengler (KG)
+- [ ] Peter Meehan (PM)
 - [ ] Your name here (INITIALS)
 
 ## Topics
