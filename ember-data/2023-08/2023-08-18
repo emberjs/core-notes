@@ -1,0 +1,90 @@
+# August 18, 2023
+
+Facilitator & Note Taker: Jared Galanis
+
+## Attendees
+
+Add yourself to the list if you attend and check the box!
+
+### Core Team
+
+- [x] Chris Thoburn (CT)
+
+### Guests
+
+- [x] Jared Galanis (JG)
+- [x] Eric Kelly (EK)
+- [x] Krystan HM (KHM)
+
+### Typescript
+
+- What do we need to do to make the TS work actually happen?
+  - Do we have a shared idea of what the work is?
+    - 4 main sections:
+      1. Tooling
+        - Need a way to publish types
+        - Those types need to not be a part of the install (we need both preview and non-preview types)
+        - We're mostly happy with ember source types, but some people were using preview types so fixes needed to be backported into them. That and maintaining the def typed types created some overhead.
+        - Addons bringing in conflicting versions of types is also an issue
+
+      2. Unstable Legacy Preview Types
+        - copy pasta of what's in def typed types
+        - we've marked them as unstable and legacy b/c they need a lot of work
+        - certain approaches that might need to change
+        - so why even do this? this is still the fastest path to ship some types
+        - would be good as a migration path
+
+      3. Preview Types
+        - once legacy def typed types are working we'll leave them be while we iterate on preview types
+        - even more unstable types
+        - the biggest source of instability will come as we figure out how to type deeply nested schemas in a way that can provide value throughout the library
+        - 3 levels of how we could type this
+          - easy -> apis that take a string that represetn a field on your resource only take a string (not a keyof or a constrained keyof)
+            - could help out w asserts at runtime
+            - if no keyof how would we help w return type? it would be difficult, might need to require users to pass in a variable. This is not totally unexpected, see zod, graphQL, etc. There is a lot of debate around this though.
+          - moderate -> constrained to being a keyof the resource
+            - this gets tricky with more complex types (multi level object), some of the apis may have a hard time figuring out the signature
+            - e.g. schema service gives back top level fields only and the other levels exist as options on the parent field, so we may not be able to internally pull through what the types are
+            - most situations probably would get nice help if it's constrained to keyof on the resource
+            - we'd need to give people an out
+            - the downside to this approach is there are apis that expect a subset of keys and they won't complain at a TS level
+          - hard -> filter key types off of the schema to be able to narrow by colletion/resource/field etc.
+            - Chris has already tried this 3x times and hasn't succeeded
+            - However when Chris tried this satisfies didn't exist, so the prev blockers might not matter any more
+            - this is closest to what def typed types are trying to do
+            - BUT this all gets way harder with deeply nested relationships (which we don't have now, but will in a schema driven world) -> back to the dot path problem, you have a string key w dots that you need to split and validate
+            - is this api decorators? we don't need to pull off a class for TS in the future
+            - we'll need to account for 3 modes: EmberData model, whatever we output when compiling schema (should be able to pass in a schema), ???
+            - sometimes things end up being more loose than we want (like if we know an api has a certain type)
+            - in legacy types it will always be this way, but in preview types if we're not using EmberData model then we should be able to give the signature
+            - in preview types we don't have to type internals, only public apis, but this isn't the case for published types
+            - if we're only typing the public apis then the problem space will be smaller
+
+        4. Published types
+            - we can handle keyof's as strings internally and then recast back to keyof --> might be the only way of doing things for a our public consumers and it might be the best approach for starting this
+            - some pkgs have type signatures that are nearly good enoguht ot publish as soon as we have the publishing infra
+            - this solves some of the problems with the preview types being incomplete
+            - other pkgs will have types that are nearly good enough if we go with the "only type this as a string" approach. they don't have support for keyof.
+            - probably the best approach is to figure out which exp we want to offer folks around what gets typed and when and work leaves in
+            - the moment you intro registries and keyof, etc, everything starts complaining if its not also typed that way.
+            - probably best to just cast back to the looser type as an intermediary step, but we'll want to remove them eventually.
+            - this is pretty diff than the ember source work, for us, what's in the registry affects every method signature in some way. so it's hard to just pluck keys off of registries, get a value and iterate down.
+            - this is a complex job and we shoudl worry about correctness for our consumers not ourselvs
+            - all this is partly why svelte decided to use JSdoc (type something externally but use as any internally)
+            - should give best efforts, but we may end up needing to fall back to this approach
+            - so not really typesafe, but provides DX for the consumer (not contributors)
+            - could potentially have diff types internally (doesn't need to be totally unsafes), but then we're permanently maintaining the equiv of def typed types
+            - if we wanted good DX on both sides we'd need to be able to detect when the public/private types don't match
+            - could we make liberal use of expect-error? yes
+
+          - this is a long project, but there's not really many alternatives
+          - could we skip to this step 4? perhaps but this would be abandoning def typed users
+          - important to get to using the actual ember-source types
+          - if we can get something that people can contribute to w/in EmberData itself that would be helpful
+          - these steps can be parallelized to a degree
+          - step 2 can probably blend into step 3
+          - we can always name very unstable types appropriately!
+
+## Any Questions?
+
+Questions, comments or concerns? Submit a comment or PR for this set of notes.
