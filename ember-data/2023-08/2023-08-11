@@ -1,0 +1,110 @@
+# August 11, 2023
+
+Facilitator & Note Taker: Jared Galanis
+
+## Attendees
+
+Add yourself to the list if you attend and check the box!
+
+### Core Team
+
+- [x] Chris Thoburn (CT)
+
+### Guests
+
+- [x] Jared Galanis
+- [x] prakash
+
+### Typescript
+
+- Give a short status update
+- Any tasks that would be good to surface for community contribution?
+    - These were raised last week and do no appear to have people working on them:
+        - migrate loose mode files to strict mode
+            - things that people could do (could turn this into an issue:
+                - tsconfig.json → every file in this list of files needs to be removed and all ts errors that occur from that removal need to be fixed. the files are loose because we’re allowing the implicit any.
+                - .eslintrc.js → every file in the list of recommended-requiring-type-checking rule group need to be removed as well
+        - type remaining JS files (only a few of these)
+    - runspired to draft strategy for going leaf to core for publishing types
+        - registry is the tricky part
+        - def typed types had one registry (this prevented us from testing registering models), we’ll end up w a registry of registries
+        - see https://github.com/emberjs/data/pull/7957
+
+### Release Prep
+
+- 5.2 release will be a re-release of 5.1 and should happen later today or this weekend
+- Jared will start the release cadence break blog post this weekend
+- Roadmap needs updating (see action item)
+
+### Maintenance
+
+- Give a short status update
+- Any tasks that would be good to surface for community contribution?
+    - maybe this one https://github.com/emberjs/data/issues/8675
+    - nothing else new atm
+
+### Documentation
+
+- Give a short status update
+- Any tasks that would be good to surface for community contribution?
+    - It looks like there are plenty of docs tasks in the 5.2 release checklist https://github.com/emberjs/data/issues/8743
+    - These are open if folks want to take any of these docs tasks in the check list
+
+## Agenda
+
+- Typescript Infra
+    - no seems to have picked up the release infra work mentioned in last weeks meeting, but we should verify
+    - can follow up with Peter/Preston
+- Typescript Updates
+    - see above comment about the open work:
+        - migrate loose mode files to strict mode
+        - type remaining JS files (only a few of these)
+- Prep for Breaking Lockstep
+    - Jared will handle the first draft of the blog post
+    - Jared will also work on the API docs to ensure it can handle things appropriately
+- Dual Publishing
+    - Beto might pick this up (or Chris in the next few weeks)
+    - this is important because we orig were going to use this as a path off of m3 for m3 user, but this is also a path of off model fragments as well
+    - would be ideal to not have folks migrate to a new version of model fragments only to then migrate to new EmberData
+- RFCS
+    - both of these RFCS were advanced last week, but there doesn't seem to be enough movement to consider advancing them further or work to discuss
+        - https://github.com/emberjs/rfcs/pull/910
+        - https://github.com/emberjs/rfcs/pull/942
+- What’s happening in EmberData
+    - two things coming
+        - graph diff’ing that’s coming in 5.2, means everyone who’s using ember-data-change-tracker or similar can stop using it (this will happen in 5.3 tho)
+            - if you want to support patch as your HTTP verb it’ll be the default, rather than upsert
+            - means you can query the graph for the delta in removes/adds
+            - probs most requested feature
+        - data worker
+            - lots of progress (this was going to be a stretch for 5.x)
+            - only really need tests
+            - and embroider to better support it (would be nice to have an embroider worker)
+                - need embroider to specify an entry file that produces a distinct asset
+                - can’t use rollup b/c EmberData libs aren’t v2 addons (they don’t work in embroider as v2 addons b/c no config)
+                - embroider/macros does things w/ babel transforms that are tightly coupled to ember-cli and prevents us from using it
+                - can be used even w/o a build step, and it’d pretty difficult to do, but some people probably would use it
+            - if we can allow the libraries to publish with a different version we could publish this as a 0.0.1
+            - this will be private until we figure out the build step issues and breaking the version lockstep
+            - one thing that was surfaced during the work was the need to have a public API for operations
+            - also dirty/clean state
+                - existing cache design side steps idea of dirty state
+                - you can request deltas, but no clean state (this didn’t happen b/c it was intended you’d probs just use a fork, but nobody uses forks atm)
+                - might not be a major API change, perhaps could get away with just amending the peek API
+                    - if it we give it a second bool argument for include/exclude changes this might be enough to toggle what is returned
+
+- Create agenda for next week
+
+## Action items
+
+- We should provide some issues with better definition on the things that need to happen and that people can work on
+- Release week, so we'll need to work on re-releasing 5.1 at a minimum
+- Peter/Chris to pair on the types infra
+- Jared moves these notes to core-notes repo
+- runspired to update roadmap with the targets that we were hoping to get into 5.2
+- Chris to check-in w natasha re docs
+- Chris to follow up with Wycats/Tilde re dual publishing sign off
+
+## Any Questions?
+
+Questions, comments or concerns? Submit a comment or PR for this set of notes.
