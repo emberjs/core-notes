@@ -1,0 +1,78 @@
+# August 4, 2023
+
+Facilitator & Note Taker: Jared Galanis
+
+## Attendees
+
+Add yourself to the list if you attend and check the box!
+
+### Core Team
+
+- [] Chris Thoburn (CT)
+
+### Guests
+
+- [x] Jared Galanis
+- [x] sol
+
+**Very lightly attended meeting today so the below notes are recapturing what went on last week and making sure nothing new has come up.**
+
+## Initiatives
+
+### Typescript
+
+- Give a short status update
+- Any tasks that would be good to surface for community contribution?
+    - These were raised last week and do no appear to have people working on them:
+        - migrate loose mode files to strict mode
+        - type remaining JS files (only a few of these)
+    - Probably would be good to get some specific issues opened that people from the community could pick up or if they already exist, identify what they are
+
+### Release Prep
+
+- 5.2 release week begins on Monday
+- We have not released a blog posted about Data's break with the release train cadence (which is a requirement for breaking cadence) so as discussed in last weeks meeting we'll likely release w/o polish or just re-release 5.1
+
+### Maintenance
+
+- Give a short status update
+- Any tasks that would be good to surface for community contribution?
+
+### Documentation
+
+- Give a short status update
+- Any tasks that would be good to surface for community contribution?
+    - It looks like there are plenty of docs tasks in the 5.2 release checklist https://github.com/emberjs/data/issues/8743
+
+## Agenda
+
+- Typescript Infra
+    - no seems to have picked up the release infra work mentioned in last weeks meeting, but we should verify
+- Typescript Updates
+    - see above comment about the open work:
+        - migrate loose mode files to strict mode
+        - type remaining JS files (only a few of these)
+- Prep for Breaking Lockstep
+    - We still need to write a blog post about breaking lockstep release cadence
+- Dual Publishing
+    - No one seems to have picked up this work so we'll continue to discuss
+- RFCS
+    - both of these RFCS were advanced last week, but there doesn't seem to be enough movement to consider advancing them further or work to discuss
+        - https://github.com/emberjs/rfcs/pull/910
+        - https://github.com/emberjs/rfcs/pull/942
+- Review RFC Statuses
+    - https://github.com/emberjs/rfcs/pull/942
+    -
+
+- Create agenda for next week
+
+## Action items
+
+- We should provide some issues with better definition on the things that need to happen and that people can work on
+- Release week, so we'll need to work on re-releasing 5.1 at a minimum
+- Peter/Chris to pair on the types infra (if still relevant?)
+- Jared moves these notes to core-notes repo
+
+## Any Questions?
+
+Questions, comments or concerns? Submit a comment or PR for this set of notes.
