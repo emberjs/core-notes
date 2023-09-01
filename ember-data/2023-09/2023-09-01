@@ -1,0 +1,79 @@
+# September 1, 2023
+
+Facilitator & Note Taker: Chris Thoburn & Jared Galanis
+
+## Attendees
+
+Add yourself to the list if you attend and check the box!
+
+### Core Team
+
+- [x] Chris Thoburn (CT)
+
+### Guests
+
+- [x] Jared Galanis
+- [x] Peter Wagenet
+- [x] Krystan HM
+- [x] Kirill
+- [x] Mehul
+
+### RFC Review
+
+- https://github.com/emberjs/rfcs/pull/910
+  - CT Reviewing https://github.com/ember-learn/deprecation-app/pull/1339, Katie has asked that we include deprecations that are not release, but Locks has pointed out that this can't be merged because it's not released.
+  - https://github.com/emberjs/rfcs/pull/947 - same deprecations issue as above
+- https://github.com/emberjs/rfcs/pull/942 - will continue to stay in its current state
+- CT We should transfer over the issues which are technically pre-RFCs should be moved over to the EmberData repo, this allows tracking on the EmberData project board
+- PW current thinking is that if you want to open an RFC don't open an issue, open a PR instead
+
+### Graph Diffing - CT
+
+- https://github.com/emberjs/data/pull/8807
+- comes w a little bit of risk. we prev blew away state eagerly and now we won't. because of this there were some deprecations added.
+- change affects both belongsTo and hasManys, but focusing on hasMany
+- we used to have remote state and local state
+- remote state in ED means anything coming from the api or pushed into store
+- we used to copy remote state into local state, this is not performant (espec if diffing an inverse)
+- we end up doing a lot of diffs
+- this is the last major perf bottleneck that's not the lang itself
+- in the new world we have remote state and local additions and local removals
+- we now diff against remote state and local additions/removals, not both local and remote state
+- we used to flushCanonincal (flush update to remote state) when we received new remote state b/c of 2 generals problem, so we would assume your api knows better
+- in the new world if the remote state stays the same and because we now keep track of the changes, we can avoid any observable changes to the relationships at all
+- in the new world if the remote state changes then we can diff against the local adds/removals
+- there is now more of a burden on app engineers to make sure the api is providing the right change back to them or if the api provides no signal --> they have to commit this change themselves
+- with relationship diff and order support you get a helper func that gives access to the diff (serializePatch)
+- this means if you want to implement patch, you can do the diffing yourself
+- this will be exposed publicly eventually (not in this PR/release tho)
+- once pagination and deeply nested relationships are supported the entire package can become public (means no reaching into the internals, there's an api for it)
+- because we don't blow away adds/removes when we diff this does present a problem with ordering, but the api should probably be maintaing that ordering
+- this PR tries to maintain the order of the local state without blowing it away (as long as you have not received a remote state update that's different, we won't reconstruct local state)
+- the risk here still exists but it's mitigated by this preservation of ordering where possible
+- this probably will come out in 5.3
+- old way is preservable by blowing away state, this is behind a deprecation flag
+- resetOnRemoteUpdate: false is the flag on both sides of the relationship that opts into the new behavior
+
+### Typescript
+
+- PW not much progress due to lack of availability
+- CT probably better to spend effort in planning materials side
+
+### Maintenance
+
+- Give a short status update
+- Any tasks that would be good to surface for community contribution?
+
+### Documentation
+
+- Give a short status update
+- Any tasks that would be good to surface for community contribution?
+
+Action Items:
+
+- we should audit the RFCs advancement pipeline and make sure nothing has been lost
+- develop communication strategy for the Graph Diffing
+
+## Any Questions?
+
+Questions, comments or concerns? Submit a comment or PR for this set of notes.
