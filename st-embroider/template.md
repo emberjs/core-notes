@@ -15,6 +15,9 @@ Add yourself to the list if you attend and check the box!
 - [ ] Simon Ihmig (SI)
 - [ ] Katie Gengler (KG)
 - [ ] Peter Meehan (PM)
+- [ ] Krystan HuffMenne (KH)
+- [ ] Peter Wagenet (PW)
+- [ ] James Davis (JD)
 - [ ] Your name here (INITIALS)
 
 ## Topics
