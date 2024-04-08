@@ -15,12 +15,13 @@ Add yourself to the list if you attend and check the box!
 - [ ] Robert Wagner (RW)
 - [ ] Chris Ng (CN)
 - [ ] Anne-Greeth Schot-van Herwijnen (AG)
+- [ ] Ignace Maes (IM)
 
 ### Guests
 
 - [] Your name here (INITIALS)
 
-## Weekly review
+## Weekly review (10 mins)
 
 [Open pull requests](https://help-wanted.emberjs.com/pull-requests)
 
