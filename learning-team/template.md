@@ -23,11 +23,9 @@ Add yourself to the list if you attend and check the box!
 
 ## Weekly review (10 mins)
 
-[Open pull requests](https://help-wanted.emberjs.com/pull-requests)
-
-[RFC review app](https://rfcs.emberjs.com/)
-
-[RFC PR Queue](https://github.com/emberjs/rfcs/pulls)
+Open pull requests
+- [Approved PRs](https://github.com/search?q=org%3Aember-learn+review%3Aapproved+is%3Aopen+draft%3Afalse&type=pullrequests)
+- [Need Review](https://github.com/search?q=org%3Aember-learn++is%3Aopen+draft%3Afalse+-author%3Aapp%2Fdependabot+-review%3Aapproved&type=pullrequests&s=created&o=desc)
 
 ## Topics
 
