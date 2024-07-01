@@ -14,7 +14,6 @@ Add yourself to the list if you attend and check the box!
 - [ ] Jen Weber (JW)
 - [ ] Ricardo Mendes (RM)
 - [ ] Robert Wagner (RW)
-- [ ] Chris Ng (CN)
 - [ ] Anne-Greeth Schot-van Herwijnen (AG)
 - [ ] Ignace Maes (IM)
 - [ ] Guest name here (INITIALS)
