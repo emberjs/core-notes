@@ -7,7 +7,7 @@ Time Keeper:
 
 Add yourself to the list if you attend and check the box!
 
-- [ ] Ed Falkner (EF)
+- [ ] Ed Faulkner (EF)
 - [ ] Chris Manson (CM)
 - [ ] Aaron Chambers (AC)
 - [ ] Alex (A)
@@ -18,7 +18,6 @@ Add yourself to the list if you attend and check the box!
 - [ ] Krystan HuffMenne (KH)
 - [ ] Peter Wagenet (PW)
 - [ ] James Davis (JD)
-- [ ] Marine Dunstetter (MD)
 - [ ] Your name here (INITIALS)
 
 ## Topics
