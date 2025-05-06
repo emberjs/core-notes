@@ -9,7 +9,6 @@ Add yourself to the list if you attend and check the box!
 
 - [ ] Ed Faulkner (EF)
 - [ ] Chris Manson (CM)
-- [ ] Aaron Chambers (AC)
 - [ ] Alex (A)
 - [ ] Preston Sego (PS)
 - [ ] Simon Ihmig (SI)
